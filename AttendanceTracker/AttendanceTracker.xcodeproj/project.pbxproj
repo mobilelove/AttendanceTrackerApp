@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60F6313220713D98006FA085 /* StudentMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F6313120713D98006FA085 /* StudentMain.storyboard */; };
-		60F6313A20713DBF006FA085 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313320713DBE006FA085 /* HomeViewController.swift */; };
-		60F6313B20713DBF006FA085 /* MenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313420713DBE006FA085 /* MenuPresentationController.swift */; };
-		60F6313C20713DBF006FA085 /* MenuTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313520713DBE006FA085 /* MenuTransitioningDelegate.swift */; };
-		60F6313D20713DBF006FA085 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313620713DBF006FA085 /* MenuCell.swift */; };
-		60F6313E20713DBF006FA085 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313720713DBF006FA085 /* GradientView.swift */; };
-		60F6313F20713DBF006FA085 /* MenuAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313820713DBF006FA085 /* MenuAnimatedTransitioning.swift */; };
-		60F6314020713DBF006FA085 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313920713DBF006FA085 /* MenuViewController.swift */; };
+		60D88CF32071622B0046C318 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF02071622B0046C318 /* HostViewController.swift */; };
+		60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */; };
+		60D88CF52071622B0046C318 /* SampleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF22071622B0046C318 /* SampleMenuViewController.swift */; };
+		60D88CFD2071626E0046C318 /* KittyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF72071626E0046C318 /* KittyViewController.storyboard */; };
+		60D88CFE2071626E0046C318 /* KittyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF82071626E0046C318 /* KittyViewController.swift */; };
+		60D88CFF2071626E0046C318 /* TabBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF92071626E0046C318 /* TabBarViewController.storyboard */; };
+		60D88D002071626E0046C318 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CFA2071626E0046C318 /* TabBarViewController.swift */; };
+		60D88D012071626E0046C318 /* TweakViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CFB2071626E0046C318 /* TweakViewController.storyboard */; };
+		60D88D022071626E0046C318 /* TweakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CFC2071626E0046C318 /* TweakViewController.swift */; };
+		60D88D05207162770046C318 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D04207162770046C318 /* Storyboardable.swift */; };
+		60D88D082071627D0046C318 /* SampleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D072071627D0046C318 /* SampleTableCell.swift */; };
+		60D88D0A207162B40046C318 /* StudentProfileMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88D09207162B40046C318 /* StudentProfileMain.storyboard */; };
+		60E8036D207160E700B89815 /* InteractiveSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; };
 		D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AD62070769B00EFF19C /* AppDelegate.swift */; };
 		D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D79ADD2070769B00EFF19C /* Assets.xcassets */; };
 		D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D79ADF2070769B00EFF19C /* LaunchScreen.storyboard */; };
@@ -49,6 +54,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		60E8036A207160AB00B89815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 881EF0831E30FFE40035DEB4;
+			remoteInfo = InteractiveSideMenu;
+		};
 		D8D79AE82070769B00EFF19C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D8D79ACB2070769B00EFF19C /* Project object */;
@@ -59,14 +71,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		60F6313120713D98006FA085 /* StudentMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StudentMain.storyboard; sourceTree = "<group>"; };
-		60F6313320713DBE006FA085 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		60F6313420713DBE006FA085 /* MenuPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPresentationController.swift; sourceTree = "<group>"; };
-		60F6313520713DBE006FA085 /* MenuTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitioningDelegate.swift; sourceTree = "<group>"; };
-		60F6313620713DBF006FA085 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
-		60F6313720713DBF006FA085 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		60F6313820713DBF006FA085 /* MenuAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuAnimatedTransitioning.swift; sourceTree = "<group>"; };
-		60F6313920713DBF006FA085 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		60D88CF02071622B0046C318 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleMenuViewController.storyboard; sourceTree = "<group>"; };
+		60D88CF22071622B0046C318 /* SampleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleMenuViewController.swift; sourceTree = "<group>"; };
+		60D88CF72071626E0046C318 /* KittyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KittyViewController.storyboard; sourceTree = "<group>"; };
+		60D88CF82071626E0046C318 /* KittyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittyViewController.swift; sourceTree = "<group>"; };
+		60D88CF92071626E0046C318 /* TabBarViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabBarViewController.storyboard; sourceTree = "<group>"; };
+		60D88CFA2071626E0046C318 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		60D88CFB2071626E0046C318 /* TweakViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TweakViewController.storyboard; sourceTree = "<group>"; };
+		60D88CFC2071626E0046C318 /* TweakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweakViewController.swift; sourceTree = "<group>"; };
+		60D88D04207162770046C318 /* Storyboardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		60D88D072071627D0046C318 /* SampleTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableCell.swift; sourceTree = "<group>"; };
+		60D88D09207162B40046C318 /* StudentProfileMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentProfileMain.storyboard; sourceTree = "<group>"; };
+		60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = InteractiveSideMenu.xcodeproj; sourceTree = "<group>"; };
 		D8D79AD32070769B00EFF19C /* AttendanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D79AD62070769B00EFF19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8D79ADD2070769B00EFF19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E8036D207160E700B89815 /* InteractiveSideMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +158,60 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		60D88CEF2071622B0046C318 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60D88CF02071622B0046C318 /* HostViewController.swift */,
+				60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */,
+				60D88CF22071622B0046C318 /* SampleMenuViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		60D88CF62071626E0046C318 /* Menu Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60D88CF72071626E0046C318 /* KittyViewController.storyboard */,
+				60D88CF82071626E0046C318 /* KittyViewController.swift */,
+				60D88CF92071626E0046C318 /* TabBarViewController.storyboard */,
+				60D88CFA2071626E0046C318 /* TabBarViewController.swift */,
+				60D88CFB2071626E0046C318 /* TweakViewController.storyboard */,
+				60D88CFC2071626E0046C318 /* TweakViewController.swift */,
+			);
+			path = "Menu Controllers";
+			sourceTree = "<group>";
+		};
+		60D88D03207162770046C318 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				60D88D04207162770046C318 /* Storyboardable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		60D88D062071627D0046C318 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				60D88D072071627D0046C318 /* SampleTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		60E80367207160AB00B89815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E8036C207160E700B89815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		60F6312F20713D06006FA085 /* TeacherProfileMode */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,14 +225,11 @@
 		60F6313020713D24006FA085 /* StudentProfileMode */ = {
 			isa = PBXGroup;
 			children = (
-				60F6313720713DBF006FA085 /* GradientView.swift */,
-				60F6313320713DBE006FA085 /* HomeViewController.swift */,
-				60F6313820713DBF006FA085 /* MenuAnimatedTransitioning.swift */,
-				60F6313620713DBF006FA085 /* MenuCell.swift */,
-				60F6313420713DBE006FA085 /* MenuPresentationController.swift */,
-				60F6313520713DBE006FA085 /* MenuTransitioningDelegate.swift */,
-				60F6313920713DBF006FA085 /* MenuViewController.swift */,
-				60F6313120713D98006FA085 /* StudentMain.storyboard */,
+				60D88D062071627D0046C318 /* Cells */,
+				60D88D03207162770046C318 /* Helpers */,
+				60D88CF62071626E0046C318 /* Menu Controllers */,
+				60D88CEF2071622B0046C318 /* Controllers */,
+				60D88D09207162B40046C318 /* StudentProfileMain.storyboard */,
 			);
 			path = StudentProfileMode;
 			sourceTree = "<group>";
@@ -168,9 +237,11 @@
 		D8D79ACA2070769B00EFF19C = {
 			isa = PBXGroup;
 			children = (
+				60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */,
 				D8D79AD52070769B00EFF19C /* AttendanceTracker */,
 				D8D79AEA2070769B00EFF19C /* AttendanceTrackerTests */,
 				D8D79AD42070769B00EFF19C /* Products */,
+				60E8036C207160E700B89815 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -535,6 +606,12 @@
 			mainGroup = D8D79ACA2070769B00EFF19C;
 			productRefGroup = D8D79AD42070769B00EFF19C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 60E80367207160AB00B89815 /* Products */;
+					ProjectRef = 60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D8D79AD22070769B00EFF19C /* AttendanceTracker */,
@@ -543,15 +620,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = InteractiveSideMenu.framework;
+			remoteRef = 60E8036A207160AB00B89815 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D8D79AD12070769B00EFF19C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */,
+				60D88D0A207162B40046C318 /* StudentProfileMain.storyboard in Resources */,
+				60D88CFF2071626E0046C318 /* TabBarViewController.storyboard in Resources */,
+				60D88CFD2071626E0046C318 /* KittyViewController.storyboard in Resources */,
+				60D88D012071626E0046C318 /* TweakViewController.storyboard in Resources */,
 				D8D79B3E20708F3C00EFF19C /* Info.plist in Resources */,
 				D8D79B4620708FB500EFF19C /* YALChatDemoList.plist in Resources */,
 				D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */,
-				60F6313220713D98006FA085 /* StudentMain.storyboard in Resources */,
 				D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */,
 				D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */,
 			);
@@ -572,34 +663,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D79B5420709D9000EFF19C /* CalendarViewController.swift in Sources */,
-				60F6313D20713DBF006FA085 /* MenuCell.swift in Sources */,
-				60F6313E20713DBF006FA085 /* GradientView.swift in Sources */,
-				60F6313F20713DBF006FA085 /* MenuAnimatedTransitioning.swift in Sources */,
+				60D88CF52071622B0046C318 /* SampleMenuViewController.swift in Sources */,
 				D8D79B4020708F3C00EFF19C /* YALFoldingTabBarController.m in Sources */,
 				D8D79B11207084FF00EFF19C /* SignUpViewController.swift in Sources */,
 				D8D79B4220708F3C00EFF19C /* YALCustomHeightTabBar.m in Sources */,
-				60F6314020713DBF006FA085 /* MenuViewController.swift in Sources */,
 				D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */,
 				D8D79B012070842900EFF19C /* TongueView.swift in Sources */,
 				D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */,
 				D8D79B3F20708F3C00EFF19C /* YALSpringAnimation.m in Sources */,
 				D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */,
 				D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */,
+				60D88D05207162770046C318 /* Storyboardable.swift in Sources */,
 				D8D79AFD207083D100EFF19C /* LoginViewController.swift in Sources */,
-				60F6313C20713DBF006FA085 /* MenuTransitioningDelegate.swift in Sources */,
-				60F6313A20713DBF006FA085 /* HomeViewController.swift in Sources */,
 				D8D79B4B2070909E00EFF19C /* ChatViewController.swift in Sources */,
 				D8D79B4320708F3C00EFF19C /* YALFoldingTabBar.m in Sources */,
 				D8D79B3B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				D8D79B0F207084F200EFF19C /* Extensions.swift in Sources */,
 				D8D79B082070849F00EFF19C /* TongueSwipeControllerType.swift in Sources */,
 				D8D79B5620709DA500EFF19C /* ReportsViewController.swift in Sources */,
+				60D88D002071626E0046C318 /* TabBarViewController.swift in Sources */,
 				D8D79B4120708F3C00EFF19C /* YALTabBarItem.m in Sources */,
 				D8D79B072070849F00EFF19C /* SwipeMaskLayer.swift in Sources */,
 				D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */,
 				D8D79B5220709D7E00EFF19C /* ClassesViewController.swift in Sources */,
+				60D88D022071626E0046C318 /* TweakViewController.swift in Sources */,
 				D8D79B3C20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
-				60F6313B20713DBF006FA085 /* MenuPresentationController.swift in Sources */,
+				60D88D082071627D0046C318 /* SampleTableCell.swift in Sources */,
+				60D88CF32071622B0046C318 /* HostViewController.swift in Sources */,
+				60D88CFE2071626E0046C318 /* KittyViewController.swift in Sources */,
 				D8D79B5820709DB300EFF19C /* SettingsViewController.swift in Sources */,
 				D8D79B482070909600EFF19C /* ChatCollectionViewCell.swift in Sources */,
 				D8D79B3D20708F3C00EFF19C /* YALAnimatingTabBarConstants.m in Sources */,
