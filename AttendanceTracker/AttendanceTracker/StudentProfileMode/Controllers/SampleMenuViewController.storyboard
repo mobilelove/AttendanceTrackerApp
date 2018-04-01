@@ -13,7 +13,7 @@
         <!--Sample Menu View Controller-->
         <scene sceneID="3w8-tE-LLe">
             <objects>
-                <viewController storyboardIdentifier="NavigationMenu" id="kda-Il-Pzk" customClass="SampleMenuViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavigationMenu" id="kda-Il-Pzk" customClass="SampleMenuViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t0N-qX-OoG"/>
                         <viewControllerLayoutGuide type="bottom" id="h2K-MZ-96M"/>
@@ -25,7 +25,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Da9-Jd-YEy" userLabel="Avatar Container">
                                 <rect key="frame" x="0.0" y="20" width="375" height="200"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kitten_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="8Ml-Wj-FH6">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_01" translatesAutoresizingMaskIntoConstraints="NO" id="8Ml-Wj-FH6">
                                         <rect key="frame" x="137" y="50" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="9L2-gS-mdT"/>
@@ -43,7 +43,7 @@
                                 <rect key="frame" x="0.0" y="220" width="375" height="447"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SampleTableCell" id="hJG-Da-pJ8" customClass="SampleTableCell" customModule="Sample" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SampleTableCell" id="hJG-Da-pJ8" customClass="SampleTableCell" customModule="AttendanceTracker" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hJG-Da-pJ8" id="Ntg-vA-KYG">
@@ -110,6 +110,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kitten_avatar" width="275" height="183"/>
+        <image name="img_01" width="56" height="56"/>
     </resources>
 </document>

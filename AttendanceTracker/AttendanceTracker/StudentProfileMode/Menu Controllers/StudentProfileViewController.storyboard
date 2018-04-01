@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dAs-55-9fv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile info-->
+        <scene sceneID="vGB-27-OuY">
+            <objects>
+                <viewController storyboardIdentifier="Profile" title="Profile info" id="dAs-55-9fv" customClass="StudentProfileViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QHS-ds-GJv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebo-E4-YJi">
+                                <rect key="frame" x="16" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="IgQ-qs-b56"/>
+                                    <constraint firstAttribute="width" secondItem="ebo-E4-YJi" secondAttribute="height" multiplier="1:1" id="c6T-98-g7R"/>
+                                </constraints>
+                                <state key="normal" image="Menu"/>
+                                <connections>
+                                    <action selector="openMenu:" destination="dAs-55-9fv" eventType="touchUpInside" id="6K2-gv-ALY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ebo-E4-YJi" firstAttribute="width" secondItem="ebo-E4-YJi" secondAttribute="height" multiplier="1:1" id="7DT-cy-OO5"/>
+                            <constraint firstItem="ebo-E4-YJi" firstAttribute="top" secondItem="w5n-u6-i7n" secondAttribute="top" id="NUE-at-Q2l"/>
+                            <constraint firstItem="ebo-E4-YJi" firstAttribute="width" secondItem="ebo-E4-YJi" secondAttribute="height" multiplier="1:1" id="VQ8-zf-qxe"/>
+                            <constraint firstItem="ebo-E4-YJi" firstAttribute="leading" secondItem="QHS-ds-GJv" secondAttribute="leadingMargin" id="YFo-p6-aSG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="w5n-u6-i7n"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oUe-kZ-h2P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-129" y="-30"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Menu" width="24" height="17"/>
+    </resources>
+</document>
