@@ -117,6 +117,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6081C1C6207115B700D1A395 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		D8D79ACA2070769B00EFF19C = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +147,7 @@
 			children = (
 				D8D79AD62070769B00EFF19C /* AppDelegate.swift */,
 				D8D79AF6207076B600EFF19C /* ViewControllers */,
-				D8D79AF7207076D900EFF19C /* ViewModels */,
+				6081C1C6207115B700D1A395 /* ViewModels */,
 				D8D79AF8207076E400EFF19C /* Views */,
 				D8D79B592070A1E200EFF19C /* External */,
 				D8D79B4420708F9C00EFF19C /* AttendanceTracker-Bridging-Header.h */,
@@ -172,13 +179,6 @@
 				D8D79B492070909E00EFF19C /* ChatViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D8D79AF7207076D900EFF19C /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		D8D79AF8207076E400EFF19C /* Views */ = {
