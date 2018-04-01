@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60F6313220713D98006FA085 /* StudentMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F6313120713D98006FA085 /* StudentMain.storyboard */; };
+		60F6313A20713DBF006FA085 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313320713DBE006FA085 /* HomeViewController.swift */; };
+		60F6313B20713DBF006FA085 /* MenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313420713DBE006FA085 /* MenuPresentationController.swift */; };
+		60F6313C20713DBF006FA085 /* MenuTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313520713DBE006FA085 /* MenuTransitioningDelegate.swift */; };
+		60F6313D20713DBF006FA085 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313620713DBF006FA085 /* MenuCell.swift */; };
+		60F6313E20713DBF006FA085 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313720713DBF006FA085 /* GradientView.swift */; };
+		60F6313F20713DBF006FA085 /* MenuAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313820713DBF006FA085 /* MenuAnimatedTransitioning.swift */; };
+		60F6314020713DBF006FA085 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6313920713DBF006FA085 /* MenuViewController.swift */; };
 		D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AD62070769B00EFF19C /* AppDelegate.swift */; };
 		D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D79ADD2070769B00EFF19C /* Assets.xcassets */; };
 		D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D79ADF2070769B00EFF19C /* LaunchScreen.storyboard */; };
@@ -51,6 +59,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60F6313120713D98006FA085 /* StudentMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StudentMain.storyboard; sourceTree = "<group>"; };
+		60F6313320713DBE006FA085 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		60F6313420713DBE006FA085 /* MenuPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPresentationController.swift; sourceTree = "<group>"; };
+		60F6313520713DBE006FA085 /* MenuTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitioningDelegate.swift; sourceTree = "<group>"; };
+		60F6313620713DBF006FA085 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		60F6313720713DBF006FA085 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		60F6313820713DBF006FA085 /* MenuAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		60F6313920713DBF006FA085 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		D8D79AD32070769B00EFF19C /* AttendanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D79AD62070769B00EFF19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8D79ADD2070769B00EFF19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -124,6 +140,31 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		60F6312F20713D06006FA085 /* TeacherProfileMode */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79AF6207076B600EFF19C /* ViewControllers */,
+				6081C1C6207115B700D1A395 /* ViewModels */,
+				D8D79AF8207076E400EFF19C /* Views */,
+			);
+			path = TeacherProfileMode;
+			sourceTree = "<group>";
+		};
+		60F6313020713D24006FA085 /* StudentProfileMode */ = {
+			isa = PBXGroup;
+			children = (
+				60F6313720713DBF006FA085 /* GradientView.swift */,
+				60F6313320713DBE006FA085 /* HomeViewController.swift */,
+				60F6313820713DBF006FA085 /* MenuAnimatedTransitioning.swift */,
+				60F6313620713DBF006FA085 /* MenuCell.swift */,
+				60F6313420713DBE006FA085 /* MenuPresentationController.swift */,
+				60F6313520713DBE006FA085 /* MenuTransitioningDelegate.swift */,
+				60F6313920713DBF006FA085 /* MenuViewController.swift */,
+				60F6313120713D98006FA085 /* StudentMain.storyboard */,
+			);
+			path = StudentProfileMode;
+			sourceTree = "<group>";
+		};
 		D8D79ACA2070769B00EFF19C = {
 			isa = PBXGroup;
 			children = (
@@ -146,9 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				D8D79AD62070769B00EFF19C /* AppDelegate.swift */,
-				D8D79AF6207076B600EFF19C /* ViewControllers */,
-				6081C1C6207115B700D1A395 /* ViewModels */,
-				D8D79AF8207076E400EFF19C /* Views */,
+				D8D79AF9207076EC00EFF19C /* BaseLoginView */,
+				60F6313020713D24006FA085 /* StudentProfileMode */,
+				60F6312F20713D06006FA085 /* TeacherProfileMode */,
 				D8D79B592070A1E200EFF19C /* External */,
 				D8D79B4420708F9C00EFF19C /* AttendanceTracker-Bridging-Header.h */,
 				D8D79ADD2070769B00EFF19C /* Assets.xcassets */,
@@ -171,7 +212,6 @@
 		D8D79AF6207076B600EFF19C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D8D79AF9207076EC00EFF19C /* Login */,
 				D8D79B4D20709CFD00EFF19C /* Classes */,
 				D8D79B4E20709D0400EFF19C /* Calendar */,
 				D8D79B4F20709D2600EFF19C /* Reports */,
@@ -190,7 +230,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		D8D79AF9207076EC00EFF19C /* Login */ = {
+		D8D79AF9207076EC00EFF19C /* BaseLoginView */ = {
 			isa = PBXGroup;
 			children = (
 				D8D79B10207084FF00EFF19C /* SignUpViewController.swift */,
@@ -199,7 +239,7 @@
 				D8D79B042070848D00EFF19C /* Transition Logic */,
 				D8D79B0E207084F200EFF19C /* Extensions.swift */,
 			);
-			path = Login;
+			path = BaseLoginView;
 			sourceTree = "<group>";
 		};
 		D8D79B042070848D00EFF19C /* Transition Logic */ = {
@@ -511,6 +551,7 @@
 				D8D79B3E20708F3C00EFF19C /* Info.plist in Resources */,
 				D8D79B4620708FB500EFF19C /* YALChatDemoList.plist in Resources */,
 				D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */,
+				60F6313220713D98006FA085 /* StudentMain.storyboard in Resources */,
 				D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */,
 				D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */,
 			);
@@ -531,9 +572,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D79B5420709D9000EFF19C /* CalendarViewController.swift in Sources */,
+				60F6313D20713DBF006FA085 /* MenuCell.swift in Sources */,
+				60F6313E20713DBF006FA085 /* GradientView.swift in Sources */,
+				60F6313F20713DBF006FA085 /* MenuAnimatedTransitioning.swift in Sources */,
 				D8D79B4020708F3C00EFF19C /* YALFoldingTabBarController.m in Sources */,
 				D8D79B11207084FF00EFF19C /* SignUpViewController.swift in Sources */,
 				D8D79B4220708F3C00EFF19C /* YALCustomHeightTabBar.m in Sources */,
+				60F6314020713DBF006FA085 /* MenuViewController.swift in Sources */,
 				D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */,
 				D8D79B012070842900EFF19C /* TongueView.swift in Sources */,
 				D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */,
@@ -541,6 +586,8 @@
 				D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */,
 				D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */,
 				D8D79AFD207083D100EFF19C /* LoginViewController.swift in Sources */,
+				60F6313C20713DBF006FA085 /* MenuTransitioningDelegate.swift in Sources */,
+				60F6313A20713DBF006FA085 /* HomeViewController.swift in Sources */,
 				D8D79B4B2070909E00EFF19C /* ChatViewController.swift in Sources */,
 				D8D79B4320708F3C00EFF19C /* YALFoldingTabBar.m in Sources */,
 				D8D79B3B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
@@ -552,6 +599,7 @@
 				D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */,
 				D8D79B5220709D7E00EFF19C /* ClassesViewController.swift in Sources */,
 				D8D79B3C20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
+				60F6313B20713DBF006FA085 /* MenuPresentationController.swift in Sources */,
 				D8D79B5820709DB300EFF19C /* SettingsViewController.swift in Sources */,
 				D8D79B482070909600EFF19C /* ChatCollectionViewCell.swift in Sources */,
 				D8D79B3D20708F3C00EFF19C /* YALAnimatingTabBarConstants.m in Sources */,

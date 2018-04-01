@@ -129,6 +129,14 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let tabBarController = storyboard.instantiateViewController(withIdentifier: "FoldingTabBarController") as? YALFoldingTabBarController
         
+        
+        let studentStoryBoard = UIStoryboard(name: "StudentMain", bundle: nil)
+        let controller = studentStoryBoard.instantiateInitialViewController()
+        
+        self.present(controller!, animated: true, completion: nil)
+
+        /*
+        
         let item1 = YALTabBarItem(itemImage: UIImage(named: "nearby_icon"), leftItemImage: nil, rightItemImage: nil)
         let item2 = YALTabBarItem(itemImage: UIImage(named: "profile_icon"), leftItemImage: nil, rightItemImage: nil)
         tabBarController?.leftBarItems = [item1, item2]
@@ -150,8 +158,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         tabBarController?.tabBarViewHeight = YALTabBarViewDefaultHeight;
         tabBarController?.tabBarView.tabBarViewEdgeInsets = YALTabBarViewHDefaultEdgeInsets;
         tabBarController?.tabBarView.tabBarItemsEdgeInsets = YALTabBarViewItemsDefaultEdgeInsets;
+ */
         
-        self.present(tabBarController!, animated: true, completion: nil)
+        //self.present(tabBarController!, animated: true, completion: nil)
     }
 
 }
