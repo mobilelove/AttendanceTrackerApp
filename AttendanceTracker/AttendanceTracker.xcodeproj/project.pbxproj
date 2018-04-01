@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AD62070769B00EFF19C /* AppDelegate.swift */; };
+		D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D79ADD2070769B00EFF19C /* Assets.xcassets */; };
+		D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D79ADF2070769B00EFF19C /* LaunchScreen.storyboard */; };
+		D8D79AEC2070769B00EFF19C /* AttendanceTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AEB2070769B00EFF19C /* AttendanceTrackerTests.swift */; };
+		D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D79AFA20707D1000EFF19C /* Main.storyboard */; };
+		D8D79AFD207083D100EFF19C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AFC207083D100EFF19C /* LoginViewController.swift */; };
+		D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AFE2070840000EFF19C /* CustomTextField.swift */; };
+		D8D79B012070842900EFF19C /* TongueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B002070842900EFF19C /* TongueView.swift */; };
+		D8D79B072070849F00EFF19C /* SwipeMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B052070849E00EFF19C /* SwipeMaskLayer.swift */; };
+		D8D79B082070849F00EFF19C /* TongueSwipeControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B062070849E00EFF19C /* TongueSwipeControllerType.swift */; };
+		D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B09207084AB00EFF19C /* RotatedMovedContainerLayer.swift */; };
+		D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B0B207084B500EFF19C /* JumpAnimator.swift */; };
+		D8D79B0F207084F200EFF19C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B0E207084F200EFF19C /* Extensions.swift */; };
+		D8D79B11207084FF00EFF19C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B10207084FF00EFF19C /* SignUpViewController.swift */; };
+		D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B1820708F3C00EFF19C /* UIView+Insets.m */; };
+		D8D79B3B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B1B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m */; };
+		D8D79B3C20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B1F20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m */; };
+		D8D79B3D20708F3C00EFF19C /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B2220708F3C00EFF19C /* YALAnimatingTabBarConstants.m */; };
+		D8D79B3E20708F3C00EFF19C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8D79B2620708F3C00EFF19C /* Info.plist */; };
+		D8D79B3F20708F3C00EFF19C /* YALSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B2920708F3C00EFF19C /* YALSpringAnimation.m */; };
+		D8D79B4020708F3C00EFF19C /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B2E20708F3C00EFF19C /* YALFoldingTabBarController.m */; };
+		D8D79B4120708F3C00EFF19C /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B3220708F3C00EFF19C /* YALTabBarItem.m */; };
+		D8D79B4220708F3C00EFF19C /* YALCustomHeightTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B3520708F3C00EFF19C /* YALCustomHeightTabBar.m */; };
+		D8D79B4320708F3C00EFF19C /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B3920708F3C00EFF19C /* YALFoldingTabBar.m */; };
+		D8D79B4620708FB500EFF19C /* YALChatDemoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8D79B4520708FB500EFF19C /* YALChatDemoList.plist */; };
+		D8D79B482070909600EFF19C /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B472070909600EFF19C /* ChatCollectionViewCell.swift */; };
+		D8D79B4B2070909E00EFF19C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B492070909E00EFF19C /* ChatViewController.swift */; };
+		D8D79B5220709D7E00EFF19C /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B5120709D7E00EFF19C /* ClassesViewController.swift */; };
+		D8D79B5420709D9000EFF19C /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B5320709D9000EFF19C /* CalendarViewController.swift */; };
+		D8D79B5620709DA500EFF19C /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B5520709DA500EFF19C /* ReportsViewController.swift */; };
+		D8D79B5820709DB300EFF19C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B5720709DB300EFF19C /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8D79AE82070769B00EFF19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D79ACB2070769B00EFF19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D79AD22070769B00EFF19C;
+			remoteInfo = AttendanceTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8D79AD32070769B00EFF19C /* AttendanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D79AD62070769B00EFF19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8D79ADD2070769B00EFF19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D79AE02070769B00EFF19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8D79AE22070769B00EFF19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D79AE72070769B00EFF19C /* AttendanceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendanceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D79AEB2070769B00EFF19C /* AttendanceTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceTrackerTests.swift; sourceTree = "<group>"; };
+		D8D79AED2070769B00EFF19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D79AFA20707D1000EFF19C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D8D79AFC207083D100EFF19C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D8D79AFE2070840000EFF19C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D8D79B002070842900EFF19C /* TongueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TongueView.swift; sourceTree = "<group>"; };
+		D8D79B052070849E00EFF19C /* SwipeMaskLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeMaskLayer.swift; sourceTree = "<group>"; };
+		D8D79B062070849E00EFF19C /* TongueSwipeControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TongueSwipeControllerType.swift; sourceTree = "<group>"; };
+		D8D79B09207084AB00EFF19C /* RotatedMovedContainerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedMovedContainerLayer.swift; sourceTree = "<group>"; };
+		D8D79B0B207084B500EFF19C /* JumpAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpAnimator.swift; sourceTree = "<group>"; };
+		D8D79B0E207084F200EFF19C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D8D79B10207084FF00EFF19C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D8D79B1720708F3C00EFF19C /* UIView+Insets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Insets.h"; sourceTree = "<group>"; };
+		D8D79B1820708F3C00EFF19C /* UIView+Insets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Insets.m"; sourceTree = "<group>"; };
+		D8D79B1B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+YALTabBarViewAnimations.m"; sourceTree = "<group>"; };
+		D8D79B1C20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+YALTabBarViewAnimations.h"; sourceTree = "<group>"; };
+		D8D79B1F20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATransaction+TransactionWithAnimationsAndCompletion.m"; sourceTree = "<group>"; };
+		D8D79B2020708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATransaction+TransactionWithAnimationsAndCompletion.h"; sourceTree = "<group>"; };
+		D8D79B2220708F3C00EFF19C /* YALAnimatingTabBarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALAnimatingTabBarConstants.m; sourceTree = "<group>"; };
+		D8D79B2320708F3C00EFF19C /* YALAnimatingTabBarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALAnimatingTabBarConstants.h; sourceTree = "<group>"; };
+		D8D79B2520708F3C00EFF19C /* FoldingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingTabBar.h; sourceTree = "<group>"; };
+		D8D79B2620708F3C00EFF19C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D79B2920708F3C00EFF19C /* YALSpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALSpringAnimation.m; sourceTree = "<group>"; };
+		D8D79B2A20708F3C00EFF19C /* YALSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALSpringAnimation.h; sourceTree = "<group>"; };
+		D8D79B2D20708F3C00EFF19C /* YALFoldingTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALFoldingTabBarController.h; sourceTree = "<group>"; };
+		D8D79B2E20708F3C00EFF19C /* YALFoldingTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALFoldingTabBarController.m; sourceTree = "<group>"; };
+		D8D79B3120708F3C00EFF19C /* YALTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALTabBarItem.h; sourceTree = "<group>"; };
+		D8D79B3220708F3C00EFF19C /* YALTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALTabBarItem.m; sourceTree = "<group>"; };
+		D8D79B3520708F3C00EFF19C /* YALCustomHeightTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALCustomHeightTabBar.m; sourceTree = "<group>"; };
+		D8D79B3620708F3C00EFF19C /* YALCustomHeightTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALCustomHeightTabBar.h; sourceTree = "<group>"; };
+		D8D79B3820708F3C00EFF19C /* YALFoldingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALFoldingTabBar.h; sourceTree = "<group>"; };
+		D8D79B3920708F3C00EFF19C /* YALFoldingTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALFoldingTabBar.m; sourceTree = "<group>"; };
+		D8D79B4420708F9C00EFF19C /* AttendanceTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AttendanceTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8D79B4520708FB500EFF19C /* YALChatDemoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YALChatDemoList.plist; sourceTree = "<group>"; };
+		D8D79B472070909600EFF19C /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8D79B492070909E00EFF19C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D8D79B5120709D7E00EFF19C /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		D8D79B5320709D9000EFF19C /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		D8D79B5520709DA500EFF19C /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		D8D79B5720709DB300EFF19C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D79AD02070769B00EFF19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D79AE42070769B00EFF19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8D79ACA2070769B00EFF19C = {
+			isa = PBXGroup;
+			children = (
+				D8D79AD52070769B00EFF19C /* AttendanceTracker */,
+				D8D79AEA2070769B00EFF19C /* AttendanceTrackerTests */,
+				D8D79AD42070769B00EFF19C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D79AD42070769B00EFF19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79AD32070769B00EFF19C /* AttendanceTracker.app */,
+				D8D79AE72070769B00EFF19C /* AttendanceTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D79AD52070769B00EFF19C /* AttendanceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79AD62070769B00EFF19C /* AppDelegate.swift */,
+				D8D79AF6207076B600EFF19C /* ViewControllers */,
+				D8D79AF7207076D900EFF19C /* ViewModels */,
+				D8D79AF8207076E400EFF19C /* Views */,
+				D8D79B592070A1E200EFF19C /* External */,
+				D8D79B4420708F9C00EFF19C /* AttendanceTracker-Bridging-Header.h */,
+				D8D79ADD2070769B00EFF19C /* Assets.xcassets */,
+				D8D79AFA20707D1000EFF19C /* Main.storyboard */,
+				D8D79ADF2070769B00EFF19C /* LaunchScreen.storyboard */,
+				D8D79AE22070769B00EFF19C /* Info.plist */,
+			);
+			path = AttendanceTracker;
+			sourceTree = "<group>";
+		};
+		D8D79AEA2070769B00EFF19C /* AttendanceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79AEB2070769B00EFF19C /* AttendanceTrackerTests.swift */,
+				D8D79AED2070769B00EFF19C /* Info.plist */,
+			);
+			path = AttendanceTrackerTests;
+			sourceTree = "<group>";
+		};
+		D8D79AF6207076B600EFF19C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79AF9207076EC00EFF19C /* Login */,
+				D8D79B4D20709CFD00EFF19C /* Classes */,
+				D8D79B4E20709D0400EFF19C /* Calendar */,
+				D8D79B4F20709D2600EFF19C /* Reports */,
+				D8D79B5020709D2F00EFF19C /* Settings */,
+				D8D79B492070909E00EFF19C /* ChatViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D8D79AF7207076D900EFF19C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D8D79AF8207076E400EFF19C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B4520708FB500EFF19C /* YALChatDemoList.plist */,
+				D8D79B472070909600EFF19C /* ChatCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8D79AF9207076EC00EFF19C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B10207084FF00EFF19C /* SignUpViewController.swift */,
+				D8D79AFC207083D100EFF19C /* LoginViewController.swift */,
+				D8D79B0D207084CA00EFF19C /* CustomControl */,
+				D8D79B042070848D00EFF19C /* Transition Logic */,
+				D8D79B0E207084F200EFF19C /* Extensions.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D8D79B042070848D00EFF19C /* Transition Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B0B207084B500EFF19C /* JumpAnimator.swift */,
+				D8D79B09207084AB00EFF19C /* RotatedMovedContainerLayer.swift */,
+				D8D79B052070849E00EFF19C /* SwipeMaskLayer.swift */,
+				D8D79B062070849E00EFF19C /* TongueSwipeControllerType.swift */,
+			);
+			path = "Transition Logic";
+			sourceTree = "<group>";
+		};
+		D8D79B0D207084CA00EFF19C /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B002070842900EFF19C /* TongueView.swift */,
+				D8D79AFE2070840000EFF19C /* CustomTextField.swift */,
+			);
+			path = CustomControl;
+			sourceTree = "<group>";
+		};
+		D8D79B1420708F3C00EFF19C /* FoldingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B1520708F3C00EFF19C /* Category */,
+				D8D79B2120708F3C00EFF19C /* Constants */,
+				D8D79B2420708F3C00EFF19C /* Resources */,
+				D8D79B2720708F3C00EFF19C /* Animation */,
+				D8D79B2B20708F3C00EFF19C /* Controller */,
+				D8D79B2F20708F3C00EFF19C /* Model */,
+				D8D79B3320708F3C00EFF19C /* View */,
+			);
+			path = FoldingTabBar;
+			sourceTree = "<group>";
+		};
+		D8D79B1520708F3C00EFF19C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B1620708F3C00EFF19C /* UIView */,
+				D8D79B1920708F3C00EFF19C /* CAAnimation */,
+				D8D79B1D20708F3C00EFF19C /* CATransaction */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D8D79B1620708F3C00EFF19C /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B1720708F3C00EFF19C /* UIView+Insets.h */,
+				D8D79B1820708F3C00EFF19C /* UIView+Insets.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D8D79B1920708F3C00EFF19C /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B1A20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations */,
+			);
+			path = CAAnimation;
+			sourceTree = "<group>";
+		};
+		D8D79B1A20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B1B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m */,
+				D8D79B1C20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.h */,
+			);
+			path = "CAAnimation+YALTabBarViewAnimations";
+			sourceTree = "<group>";
+		};
+		D8D79B1D20708F3C00EFF19C /* CATransaction */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B1E20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion */,
+			);
+			path = CATransaction;
+			sourceTree = "<group>";
+		};
+		D8D79B1E20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B1F20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m */,
+				D8D79B2020708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.h */,
+			);
+			path = "CATransaction+TransactionWithAnimationsAndCompletion";
+			sourceTree = "<group>";
+		};
+		D8D79B2120708F3C00EFF19C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B2220708F3C00EFF19C /* YALAnimatingTabBarConstants.m */,
+				D8D79B2320708F3C00EFF19C /* YALAnimatingTabBarConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D8D79B2420708F3C00EFF19C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B2520708F3C00EFF19C /* FoldingTabBar.h */,
+				D8D79B2620708F3C00EFF19C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8D79B2720708F3C00EFF19C /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B2820708F3C00EFF19C /* YALSpringAnimation */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		D8D79B2820708F3C00EFF19C /* YALSpringAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B2920708F3C00EFF19C /* YALSpringAnimation.m */,
+				D8D79B2A20708F3C00EFF19C /* YALSpringAnimation.h */,
+			);
+			path = YALSpringAnimation;
+			sourceTree = "<group>";
+		};
+		D8D79B2B20708F3C00EFF19C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B2C20708F3C00EFF19C /* FoldingTabBarController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8D79B2C20708F3C00EFF19C /* FoldingTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B2D20708F3C00EFF19C /* YALFoldingTabBarController.h */,
+				D8D79B2E20708F3C00EFF19C /* YALFoldingTabBarController.m */,
+			);
+			path = FoldingTabBarController;
+			sourceTree = "<group>";
+		};
+		D8D79B2F20708F3C00EFF19C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B3020708F3C00EFF19C /* TabBarItem */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8D79B3020708F3C00EFF19C /* TabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B3120708F3C00EFF19C /* YALTabBarItem.h */,
+				D8D79B3220708F3C00EFF19C /* YALTabBarItem.m */,
+			);
+			path = TabBarItem;
+			sourceTree = "<group>";
+		};
+		D8D79B3320708F3C00EFF19C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B3420708F3C00EFF19C /* CustomHeightTabBar */,
+				D8D79B3720708F3C00EFF19C /* FoldingTabBar */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8D79B3420708F3C00EFF19C /* CustomHeightTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B3520708F3C00EFF19C /* YALCustomHeightTabBar.m */,
+				D8D79B3620708F3C00EFF19C /* YALCustomHeightTabBar.h */,
+			);
+			path = CustomHeightTabBar;
+			sourceTree = "<group>";
+		};
+		D8D79B3720708F3C00EFF19C /* FoldingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B3820708F3C00EFF19C /* YALFoldingTabBar.h */,
+				D8D79B3920708F3C00EFF19C /* YALFoldingTabBar.m */,
+			);
+			path = FoldingTabBar;
+			sourceTree = "<group>";
+		};
+		D8D79B4D20709CFD00EFF19C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B5120709D7E00EFF19C /* ClassesViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8D79B4E20709D0400EFF19C /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B5320709D9000EFF19C /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		D8D79B4F20709D2600EFF19C /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B5520709DA500EFF19C /* ReportsViewController.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		D8D79B5020709D2F00EFF19C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B5720709DB300EFF19C /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D8D79B592070A1E200EFF19C /* External */ = {
+			isa = PBXGroup;
+			children = (
+				D8D79B1420708F3C00EFF19C /* FoldingTabBar */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D79AD22070769B00EFF19C /* AttendanceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D79AF02070769B00EFF19C /* Build configuration list for PBXNativeTarget "AttendanceTracker" */;
+			buildPhases = (
+				D8D79ACF2070769B00EFF19C /* Sources */,
+				D8D79AD02070769B00EFF19C /* Frameworks */,
+				D8D79AD12070769B00EFF19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttendanceTracker;
+			productName = AttendanceTracker;
+			productReference = D8D79AD32070769B00EFF19C /* AttendanceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8D79AE62070769B00EFF19C /* AttendanceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D79AF32070769B00EFF19C /* Build configuration list for PBXNativeTarget "AttendanceTrackerTests" */;
+			buildPhases = (
+				D8D79AE32070769B00EFF19C /* Sources */,
+				D8D79AE42070769B00EFF19C /* Frameworks */,
+				D8D79AE52070769B00EFF19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D79AE92070769B00EFF19C /* PBXTargetDependency */,
+			);
+			name = AttendanceTrackerTests;
+			productName = AttendanceTrackerTests;
+			productReference = D8D79AE72070769B00EFF19C /* AttendanceTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D79ACB2070769B00EFF19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Lavanya;
+				TargetAttributes = {
+					D8D79AD22070769B00EFF19C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D8D79AE62070769B00EFF19C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8D79AD22070769B00EFF19C;
+					};
+				};
+			};
+			buildConfigurationList = D8D79ACE2070769B00EFF19C /* Build configuration list for PBXProject "AttendanceTracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8D79ACA2070769B00EFF19C;
+			productRefGroup = D8D79AD42070769B00EFF19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D79AD22070769B00EFF19C /* AttendanceTracker */,
+				D8D79AE62070769B00EFF19C /* AttendanceTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D79AD12070769B00EFF19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D79B3E20708F3C00EFF19C /* Info.plist in Resources */,
+				D8D79B4620708FB500EFF19C /* YALChatDemoList.plist in Resources */,
+				D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */,
+				D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */,
+				D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D79AE52070769B00EFF19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D79ACF2070769B00EFF19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D79B5420709D9000EFF19C /* CalendarViewController.swift in Sources */,
+				D8D79B4020708F3C00EFF19C /* YALFoldingTabBarController.m in Sources */,
+				D8D79B11207084FF00EFF19C /* SignUpViewController.swift in Sources */,
+				D8D79B4220708F3C00EFF19C /* YALCustomHeightTabBar.m in Sources */,
+				D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */,
+				D8D79B012070842900EFF19C /* TongueView.swift in Sources */,
+				D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */,
+				D8D79B3F20708F3C00EFF19C /* YALSpringAnimation.m in Sources */,
+				D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */,
+				D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */,
+				D8D79AFD207083D100EFF19C /* LoginViewController.swift in Sources */,
+				D8D79B4B2070909E00EFF19C /* ChatViewController.swift in Sources */,
+				D8D79B4320708F3C00EFF19C /* YALFoldingTabBar.m in Sources */,
+				D8D79B3B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				D8D79B0F207084F200EFF19C /* Extensions.swift in Sources */,
+				D8D79B082070849F00EFF19C /* TongueSwipeControllerType.swift in Sources */,
+				D8D79B5620709DA500EFF19C /* ReportsViewController.swift in Sources */,
+				D8D79B4120708F3C00EFF19C /* YALTabBarItem.m in Sources */,
+				D8D79B072070849F00EFF19C /* SwipeMaskLayer.swift in Sources */,
+				D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */,
+				D8D79B5220709D7E00EFF19C /* ClassesViewController.swift in Sources */,
+				D8D79B3C20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
+				D8D79B5820709DB300EFF19C /* SettingsViewController.swift in Sources */,
+				D8D79B482070909600EFF19C /* ChatCollectionViewCell.swift in Sources */,
+				D8D79B3D20708F3C00EFF19C /* YALAnimatingTabBarConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D79AE32070769B00EFF19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D79AEC2070769B00EFF19C /* AttendanceTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8D79AE92070769B00EFF19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D79AD22070769B00EFF19C /* AttendanceTracker */;
+			targetProxy = D8D79AE82070769B00EFF19C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8D79ADF2070769B00EFF19C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D79AE02070769B00EFF19C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8D79AEE2070769B00EFF19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8D79AEF2070769B00EFF19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D79AF12070769B00EFF19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27U5W528L;
+				INFOPLIST_FILE = AttendanceTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vimalveerachamy.AttendanceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AttendanceTracker/AttendanceTracker-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8D79AF22070769B00EFF19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27U5W528L;
+				INFOPLIST_FILE = AttendanceTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vimalveerachamy.AttendanceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AttendanceTracker/AttendanceTracker-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8D79AF42070769B00EFF19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AttendanceTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vimalveerachamy.AttendanceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttendanceTracker.app/AttendanceTracker";
+			};
+			name = Debug;
+		};
+		D8D79AF52070769B00EFF19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AttendanceTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vimalveerachamy.AttendanceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttendanceTracker.app/AttendanceTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D79ACE2070769B00EFF19C /* Build configuration list for PBXProject "AttendanceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D79AEE2070769B00EFF19C /* Debug */,
+				D8D79AEF2070769B00EFF19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D79AF02070769B00EFF19C /* Build configuration list for PBXNativeTarget "AttendanceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D79AF12070769B00EFF19C /* Debug */,
+				D8D79AF22070769B00EFF19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D79AF32070769B00EFF19C /* Build configuration list for PBXNativeTarget "AttendanceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D79AF42070769B00EFF19C /* Debug */,
+				D8D79AF52070769B00EFF19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D79ACB2070769B00EFF19C /* Project object */;
+}
