@@ -64,7 +64,7 @@ class HostViewController: MenuContainerViewController {
     }
 
     private func contentControllers() -> [UIViewController] {
-        let kittyController = KittyViewController.storyboardViewController()
+        let kittyController = StudentClassesViewController.storyboardViewController()
         let tabController = TabBarViewController.storyboardNavigationController()
         let tweakController = TweakViewController.storyboardNavigationController()
 

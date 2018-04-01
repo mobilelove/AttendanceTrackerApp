@@ -10,8 +10,6 @@
 		60D88CF32071622B0046C318 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF02071622B0046C318 /* HostViewController.swift */; };
 		60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */; };
 		60D88CF52071622B0046C318 /* SampleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF22071622B0046C318 /* SampleMenuViewController.swift */; };
-		60D88CFD2071626E0046C318 /* KittyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF72071626E0046C318 /* KittyViewController.storyboard */; };
-		60D88CFE2071626E0046C318 /* KittyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF82071626E0046C318 /* KittyViewController.swift */; };
 		60D88CFF2071626E0046C318 /* TabBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF92071626E0046C318 /* TabBarViewController.storyboard */; };
 		60D88D002071626E0046C318 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CFA2071626E0046C318 /* TabBarViewController.swift */; };
 		60D88D012071626E0046C318 /* TweakViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CFB2071626E0046C318 /* TweakViewController.storyboard */; };
@@ -19,6 +17,8 @@
 		60D88D05207162770046C318 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D04207162770046C318 /* Storyboardable.swift */; };
 		60D88D082071627D0046C318 /* SampleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D072071627D0046C318 /* SampleTableCell.swift */; };
 		60D88D0A207162B40046C318 /* StudentProfileMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88D09207162B40046C318 /* StudentProfileMain.storyboard */; };
+		60D88D0E207166DD0046C318 /* StudentClassesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88D0D207166DD0046C318 /* StudentClassesViewController.storyboard */; };
+		60D88D122071681C0046C318 /* StudentClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D112071681C0046C318 /* StudentClassesViewController.swift */; };
 		60E8036D207160E700B89815 /* InteractiveSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; };
 		D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AD62070769B00EFF19C /* AppDelegate.swift */; };
 		D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D79ADD2070769B00EFF19C /* Assets.xcassets */; };
@@ -74,8 +74,6 @@
 		60D88CF02071622B0046C318 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
 		60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleMenuViewController.storyboard; sourceTree = "<group>"; };
 		60D88CF22071622B0046C318 /* SampleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleMenuViewController.swift; sourceTree = "<group>"; };
-		60D88CF72071626E0046C318 /* KittyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KittyViewController.storyboard; sourceTree = "<group>"; };
-		60D88CF82071626E0046C318 /* KittyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittyViewController.swift; sourceTree = "<group>"; };
 		60D88CF92071626E0046C318 /* TabBarViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabBarViewController.storyboard; sourceTree = "<group>"; };
 		60D88CFA2071626E0046C318 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		60D88CFB2071626E0046C318 /* TweakViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TweakViewController.storyboard; sourceTree = "<group>"; };
@@ -83,6 +81,8 @@
 		60D88D04207162770046C318 /* Storyboardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		60D88D072071627D0046C318 /* SampleTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableCell.swift; sourceTree = "<group>"; };
 		60D88D09207162B40046C318 /* StudentProfileMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentProfileMain.storyboard; sourceTree = "<group>"; };
+		60D88D0D207166DD0046C318 /* StudentClassesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentClassesViewController.storyboard; sourceTree = "<group>"; };
+		60D88D112071681C0046C318 /* StudentClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClassesViewController.swift; sourceTree = "<group>"; };
 		60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = InteractiveSideMenu.xcodeproj; sourceTree = "<group>"; };
 		D8D79AD32070769B00EFF19C /* AttendanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D79AD62070769B00EFF19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -171,12 +171,12 @@
 		60D88CF62071626E0046C318 /* Menu Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				60D88CF72071626E0046C318 /* KittyViewController.storyboard */,
-				60D88CF82071626E0046C318 /* KittyViewController.swift */,
 				60D88CF92071626E0046C318 /* TabBarViewController.storyboard */,
 				60D88CFA2071626E0046C318 /* TabBarViewController.swift */,
 				60D88CFB2071626E0046C318 /* TweakViewController.storyboard */,
 				60D88CFC2071626E0046C318 /* TweakViewController.swift */,
+				60D88D0D207166DD0046C318 /* StudentClassesViewController.storyboard */,
+				60D88D112071681C0046C318 /* StudentClassesViewController.swift */,
 			);
 			path = "Menu Controllers";
 			sourceTree = "<group>";
@@ -638,13 +638,13 @@
 				60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */,
 				60D88D0A207162B40046C318 /* StudentProfileMain.storyboard in Resources */,
 				60D88CFF2071626E0046C318 /* TabBarViewController.storyboard in Resources */,
-				60D88CFD2071626E0046C318 /* KittyViewController.storyboard in Resources */,
 				60D88D012071626E0046C318 /* TweakViewController.storyboard in Resources */,
 				D8D79B3E20708F3C00EFF19C /* Info.plist in Resources */,
 				D8D79B4620708FB500EFF19C /* YALChatDemoList.plist in Resources */,
 				D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */,
 				D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */,
 				D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */,
+				60D88D0E207166DD0046C318 /* StudentClassesViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,8 +689,8 @@
 				60D88D022071626E0046C318 /* TweakViewController.swift in Sources */,
 				D8D79B3C20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				60D88D082071627D0046C318 /* SampleTableCell.swift in Sources */,
+				60D88D122071681C0046C318 /* StudentClassesViewController.swift in Sources */,
 				60D88CF32071622B0046C318 /* HostViewController.swift in Sources */,
-				60D88CFE2071626E0046C318 /* KittyViewController.swift in Sources */,
 				D8D79B5820709DB300EFF19C /* SettingsViewController.swift in Sources */,
 				D8D79B482070909600EFF19C /* ChatCollectionViewCell.swift in Sources */,
 				D8D79B3D20708F3C00EFF19C /* YALAnimatingTabBarConstants.m in Sources */,
