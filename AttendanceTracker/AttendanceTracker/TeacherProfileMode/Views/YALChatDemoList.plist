@@ -8,7 +8,7 @@
 		<key>userName</key>
 		<string>Ann Drewer</string>
 		<key>messageText</key>
-		<string>Hey, why didn&apos;t you call me? I&apos;ve...</string>
+		<string>GRADE OF COMP 261</string>
 		<key>dateText</key>
 		<string>5 min ago</string>
 	</dict>
@@ -18,9 +18,9 @@
 		<key>userName</key>
 		<string>Ryan Wrynn</string>
 		<key>messageText</key>
-		<string>Yo man, are you alive?)</string>
+		<string>GRADE OF COMP 261</string>
 		<key>dateText</key>
-		<string>Yesterday, 8:12 PM</string>
+		<string>15 min ago</string>
 	</dict>
 	<dict>
 		<key>imageName</key>
@@ -28,9 +28,9 @@
 		<key>userName</key>
 		<string>Mia Sharma</string>
 		<key>messageText</key>
-		<string>Great news)And when will you a..</string>
+		<string>GRADE OF COMP 261</string>
 		<key>dateText</key>
-		<string>Yesterday, 7:37 PM</string>
+		<string>2 min ago</string>
 	</dict>
 	<dict>
 		<key>imageName</key>
@@ -38,9 +38,9 @@
 		<key>userName</key>
 		<string>Samantha Proudmoore</string>
 		<key>messageText</key>
-		<string>Yeah, we should defenitely do it...</string>
+		<string>GRADE OF COMP 261</string>
 		<key>dateText</key>
-		<string>Feb 5, 4:59 PM</string>
+		<string>30 min ago</string>
 	</dict>
 </array>
 </plist>
