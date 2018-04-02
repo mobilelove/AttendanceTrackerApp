@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60B7E4E62071AE1B00607A8A /* InteractiveSideMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		60D88CF32071622B0046C318 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF02071622B0046C318 /* HostViewController.swift */; };
 		60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */; };
 		60D88CF52071622B0046C318 /* SampleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF22071622B0046C318 /* SampleMenuViewController.swift */; };
@@ -15,6 +16,11 @@
 		60D88D0A207162B40046C318 /* StudentProfileMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88D09207162B40046C318 /* StudentProfileMain.storyboard */; };
 		60D88D0E207166DD0046C318 /* StudentClassesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88D0D207166DD0046C318 /* StudentClassesViewController.storyboard */; };
 		60D88D122071681C0046C318 /* StudentClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D112071681C0046C318 /* StudentClassesViewController.swift */; };
+		60D88D17207177590046C318 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D16207177590046C318 /* BroadcastViewController.swift */; };
+		60D88D192071776A0046C318 /* ReceiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D182071776A0046C318 /* ReceiverViewController.swift */; };
+		60D88D1B207177860046C318 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D1A207177860046C318 /* Configuration.swift */; };
+		60D88D1D207177D90046C318 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D88D1C207177D90046C318 /* CoreBluetooth.framework */; };
+		60D88D1F207177E40046C318 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D88D1E207177E40046C318 /* CoreLocation.framework */; };
 		60E8036D207160E700B89815 /* InteractiveSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; };
 		D88AA8D120716ACE009234E7 /* StudentProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88AA8D020716ACE009234E7 /* StudentProfileViewController.storyboard */; };
 		D88AA8D420716B40009234E7 /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88AA8D320716B40009234E7 /* StudentProfileViewController.swift */; };
@@ -52,6 +58,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		60B7E4E72071AE1B00607A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 881EF0821E30FFE40035DEB4;
+			remoteInfo = InteractiveSideMenu;
+		};
 		60E8036A207160AB00B89815 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */;
@@ -68,6 +81,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		60B7E4E92071AE1B00607A8A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				60B7E4E62071AE1B00607A8A /* InteractiveSideMenu.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		60D88CF02071622B0046C318 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
 		60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleMenuViewController.storyboard; sourceTree = "<group>"; };
@@ -77,6 +104,11 @@
 		60D88D09207162B40046C318 /* StudentProfileMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentProfileMain.storyboard; sourceTree = "<group>"; };
 		60D88D0D207166DD0046C318 /* StudentClassesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentClassesViewController.storyboard; sourceTree = "<group>"; };
 		60D88D112071681C0046C318 /* StudentClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClassesViewController.swift; sourceTree = "<group>"; };
+		60D88D16207177590046C318 /* BroadcastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		60D88D182071776A0046C318 /* ReceiverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverViewController.swift; sourceTree = "<group>"; };
+		60D88D1A207177860046C318 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		60D88D1C207177D90046C318 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		60D88D1E207177E40046C318 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = InteractiveSideMenu.xcodeproj; sourceTree = "<group>"; };
 		D88AA8D020716ACE009234E7 /* StudentProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentProfileViewController.storyboard; sourceTree = "<group>"; };
 		D88AA8D320716B40009234E7 /* StudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +165,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D88D1F207177E40046C318 /* CoreLocation.framework in Frameworks */,
+				60D88D1D207177D90046C318 /* CoreBluetooth.framework in Frameworks */,
 				60E8036D207160E700B89815 /* InteractiveSideMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +225,16 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		60D88D14207177440046C318 /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				60D88D1A207177860046C318 /* Configuration.swift */,
+				60D88D16207177590046C318 /* BroadcastViewController.swift */,
+				60D88D182071776A0046C318 /* ReceiverViewController.swift */,
+			);
+			path = Beacon;
+			sourceTree = "<group>";
+		};
 		60E80367207160AB00B89815 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +246,8 @@
 		60E8036C207160E700B89815 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60D88D1E207177E40046C318 /* CoreLocation.framework */,
+				60D88D1C207177D90046C318 /* CoreBluetooth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,6 +302,7 @@
 				60F6313020713D24006FA085 /* StudentProfileMode */,
 				60F6312F20713D06006FA085 /* TeacherProfileMode */,
 				D8D79B592070A1E200EFF19C /* External */,
+				60D88D14207177440046C318 /* Beacon */,
 				D8D79B4420708F9C00EFF19C /* AttendanceTracker-Bridging-Header.h */,
 				D8D79ADD2070769B00EFF19C /* Assets.xcassets */,
 				D8D79AFA20707D1000EFF19C /* Main.storyboard */,
@@ -540,10 +587,12 @@
 				D8D79ACF2070769B00EFF19C /* Sources */,
 				D8D79AD02070769B00EFF19C /* Frameworks */,
 				D8D79AD12070769B00EFF19C /* Resources */,
+				60B7E4E92071AE1B00607A8A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				60B7E4E82071AE1B00607A8A /* PBXTargetDependency */,
 			);
 			name = AttendanceTracker;
 			productName = AttendanceTracker;
@@ -662,9 +711,12 @@
 				D8D79B4220708F3C00EFF19C /* YALCustomHeightTabBar.m in Sources */,
 				D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */,
 				D8D79B012070842900EFF19C /* TongueView.swift in Sources */,
+				60D88D192071776A0046C318 /* ReceiverViewController.swift in Sources */,
 				D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */,
 				D8D79B3F20708F3C00EFF19C /* YALSpringAnimation.m in Sources */,
+				60D88D1B207177860046C318 /* Configuration.swift in Sources */,
 				D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */,
+				60D88D17207177590046C318 /* BroadcastViewController.swift in Sources */,
 				D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */,
 				60D88D05207162770046C318 /* Storyboardable.swift in Sources */,
 				D8D79AFD207083D100EFF19C /* LoginViewController.swift in Sources */,
@@ -700,6 +752,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		60B7E4E82071AE1B00607A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InteractiveSideMenu;
+			targetProxy = 60B7E4E72071AE1B00607A8A /* PBXContainerItemProxy */;
+		};
 		D8D79AE92070769B00EFF19C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D8D79AD22070769B00EFF19C /* AttendanceTracker */;
@@ -829,12 +886,13 @@
 		D8D79AF12070769B00EFF19C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X27U5W528L;
 				INFOPLIST_FILE = AttendanceTracker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vimalveerachamy.AttendanceTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -848,12 +906,13 @@
 		D8D79AF22070769B00EFF19C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X27U5W528L;
 				INFOPLIST_FILE = AttendanceTracker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vimalveerachamy.AttendanceTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";

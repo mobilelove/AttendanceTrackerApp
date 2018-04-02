@@ -506,7 +506,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="ChatCollectionViewCell" id="AFE-lc-7Si" customClass="ChatCollectionViewCell" customModule="Example_Swift" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="ChatCollectionViewCell" id="AFE-lc-7Si" customClass="ChatCollectionViewCell" customModule="AttendanceTracker" customModuleProvider="target">
                                         <rect key="frame" x="27.5" y="0.0" width="320" height="85"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -535,7 +535,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Yesterday, 7:37 P.M." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftI-17-chm" userLabel="dateLabel">
-                                                    <rect key="frame" x="215.5" y="10" width="94.5" height="21"/>
+                                                    <rect key="frame" x="211" y="10" width="99" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="LcT-F9-y2X"/>
                                                     </constraints>
