@@ -12,10 +12,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Profile info-->
+        <!--Profile-->
         <scene sceneID="vGB-27-OuY">
             <objects>
-                <viewController storyboardIdentifier="Profile" title="Profile info" id="dAs-55-9fv" customClass="StudentProfileViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Profile" title="Profile" id="dAs-55-9fv" userLabel="Profile" customClass="StudentProfileViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QHS-ds-GJv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,20 +31,28 @@
                                     <action selector="openMenu:" destination="dAs-55-9fv" eventType="touchUpInside" id="6K2-gv-ALY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1c-Ai-8U7">
+                                <rect key="frame" x="146.5" y="323" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ebo-E4-YJi" firstAttribute="width" secondItem="ebo-E4-YJi" secondAttribute="height" multiplier="1:1" id="7DT-cy-OO5"/>
                             <constraint firstItem="ebo-E4-YJi" firstAttribute="top" secondItem="w5n-u6-i7n" secondAttribute="top" id="NUE-at-Q2l"/>
                             <constraint firstItem="ebo-E4-YJi" firstAttribute="width" secondItem="ebo-E4-YJi" secondAttribute="height" multiplier="1:1" id="VQ8-zf-qxe"/>
+                            <constraint firstItem="U1c-Ai-8U7" firstAttribute="centerY" secondItem="QHS-ds-GJv" secondAttribute="centerY" id="WxD-eP-gOp"/>
                             <constraint firstItem="ebo-E4-YJi" firstAttribute="leading" secondItem="QHS-ds-GJv" secondAttribute="leadingMargin" id="YFo-p6-aSG"/>
+                            <constraint firstItem="U1c-Ai-8U7" firstAttribute="centerX" secondItem="QHS-ds-GJv" secondAttribute="centerX" id="nxn-ME-BfL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="w5n-u6-i7n"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oUe-kZ-h2P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-129" y="-30"/>
+            <point key="canvasLocation" x="-130.40000000000001" y="-30.134932533733135"/>
         </scene>
     </scenes>
     <resources>

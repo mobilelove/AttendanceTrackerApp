@@ -19,6 +19,8 @@
 		60D88D1D207177D90046C318 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D88D1C207177D90046C318 /* CoreBluetooth.framework */; };
 		60D88D1F207177E40046C318 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D88D1E207177E40046C318 /* CoreLocation.framework */; };
 		60E8036D207160E700B89815 /* InteractiveSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; };
+		D83E2FA62071C44700D16FA4 /* StudentReportViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83E2FA52071C44700D16FA4 /* StudentReportViewController.storyboard */; };
+		D83E2FA82071C46200D16FA4 /* StudentReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83E2FA72071C46200D16FA4 /* StudentReportViewController.swift */; };
 		D88AA8D120716ACE009234E7 /* StudentProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88AA8D020716ACE009234E7 /* StudentProfileViewController.storyboard */; };
 		D88AA8D420716B40009234E7 /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88AA8D320716B40009234E7 /* StudentProfileViewController.swift */; };
 		D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AD62070769B00EFF19C /* AppDelegate.swift */; };
@@ -101,6 +103,8 @@
 		60D88D1C207177D90046C318 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		60D88D1E207177E40046C318 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = InteractiveSideMenu.xcodeproj; sourceTree = "<group>"; };
+		D83E2FA52071C44700D16FA4 /* StudentReportViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentReportViewController.storyboard; sourceTree = "<group>"; };
+		D83E2FA72071C46200D16FA4 /* StudentReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentReportViewController.swift; sourceTree = "<group>"; };
 		D88AA8D020716ACE009234E7 /* StudentProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentProfileViewController.storyboard; sourceTree = "<group>"; };
 		D88AA8D320716B40009234E7 /* StudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
 		D8D79AD32070769B00EFF19C /* AttendanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,6 +195,8 @@
 			children = (
 				60D88D0D207166DD0046C318 /* StudentClassesViewController.storyboard */,
 				60D88D112071681C0046C318 /* StudentClassesViewController.swift */,
+				D83E2FA52071C44700D16FA4 /* StudentReportViewController.storyboard */,
+				D83E2FA72071C46200D16FA4 /* StudentReportViewController.swift */,
 				D88AA8D020716ACE009234E7 /* StudentProfileViewController.storyboard */,
 				D88AA8D320716B40009234E7 /* StudentProfileViewController.swift */,
 			);
@@ -657,6 +663,7 @@
 				D8D79B3E20708F3C00EFF19C /* Info.plist in Resources */,
 				D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */,
 				D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */,
+				D83E2FA62071C44700D16FA4 /* StudentReportViewController.storyboard in Resources */,
 				D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */,
 				D88AA8D120716ACE009234E7 /* StudentProfileViewController.storyboard in Resources */,
 				60D88D0E207166DD0046C318 /* StudentClassesViewController.storyboard in Resources */,
@@ -685,6 +692,7 @@
 				D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */,
 				D8D79B012070842900EFF19C /* TongueView.swift in Sources */,
 				D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */,
+				D83E2FA82071C46200D16FA4 /* StudentReportViewController.swift in Sources */,
 				D8D79B3F20708F3C00EFF19C /* YALSpringAnimation.m in Sources */,
 				D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */,
 				D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */,

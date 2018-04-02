@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Zr-Uh-TbD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Report-->
+        <scene sceneID="Ds6-Km-fb1">
+            <objects>
+                <viewController storyboardIdentifier="Report" title="Report" id="8Zr-Uh-TbD" customClass="StudentReportViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KlH-eQ-3fi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzE-mb-Aum">
+                                <rect key="frame" x="16" y="33" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uzE-mb-Aum" secondAttribute="height" multiplier="1:1" id="J06-w6-x4E"/>
+                                    <constraint firstAttribute="width" constant="44" id="Qcy-Nw-uMv"/>
+                                </constraints>
+                                <state key="normal" image="Menu"/>
+                                <connections>
+                                    <action selector="openMenu:" destination="8Zr-Uh-TbD" eventType="touchUpInside" id="ZA6-Qj-frh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnJ-0v-AIa">
+                                <rect key="frame" x="145" y="323" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uzE-mb-Aum" firstAttribute="width" secondItem="uzE-mb-Aum" secondAttribute="height" multiplier="1:1" id="1ab-Ms-izd"/>
+                            <constraint firstItem="uzE-mb-Aum" firstAttribute="leading" secondItem="KlH-eQ-3fi" secondAttribute="leadingMargin" id="3E3-31-fVZ"/>
+                            <constraint firstItem="uzE-mb-Aum" firstAttribute="top" secondItem="FN6-0z-Rt8" secondAttribute="top" constant="13" id="7Di-s9-dti"/>
+                            <constraint firstItem="NnJ-0v-AIa" firstAttribute="centerY" secondItem="KlH-eQ-3fi" secondAttribute="centerY" id="7Kt-3e-2ZL"/>
+                            <constraint firstItem="uzE-mb-Aum" firstAttribute="width" secondItem="uzE-mb-Aum" secondAttribute="height" multiplier="1:1" id="Zwy-10-1M2"/>
+                            <constraint firstItem="NnJ-0v-AIa" firstAttribute="centerX" secondItem="KlH-eQ-3fi" secondAttribute="centerX" id="mac-G1-hGr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FN6-0z-Rt8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R3Q-3h-LIV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82" y="129"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Menu" width="24" height="17"/>
+    </resources>
+</document>
