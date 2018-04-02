@@ -11,14 +11,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Code Pro LC.otf">
-            <string>Code-Pro-LC</string>
-        </array>
         <array key="HelveticaNeue.ttc">
             <string>HelveticaNeue-Bold</string>
-        </array>
-        <array key="Proxima Nova Regular.otf">
-            <string>ProximaNova-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -166,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="-2112.5937031484259"/>
+            <point key="canvasLocation" x="-1727" y="-2586"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="BeR-gk-vO4">
@@ -313,27 +307,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B4V-f3-FFU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2188" y="-2113.4932533733136"/>
-        </scene>
-        <!--Calender-->
-        <scene sceneID="ZLs-Kz-8dg">
-            <objects>
-                <viewController id="JOY-be-LeF" customClass="CalendarViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GMT-vj-EuS"/>
-                        <viewControllerLayoutGuide type="bottom" id="raR-XD-gbF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="BiB-I4-nMR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <navigationItem key="navigationItem" title="Calender" id="BNf-VY-I0B"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="57U-r8-2eQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1154" y="12"/>
+            <point key="canvasLocation" x="-631" y="-2561"/>
         </scene>
         <!--Reports-->
         <scene sceneID="ram-Xp-9Q4">
@@ -352,7 +326,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVb-ih-2aj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="284" y="-1576"/>
+            <point key="canvasLocation" x="1183" y="-1803"/>
         </scene>
         <!--Folding Tab Bar Controller-->
         <scene sceneID="gs9-st-sjt">
@@ -379,6 +353,7 @@
         <!--Settings-->
         <scene sceneID="sYP-RU-Htf">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohn-ux-SHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="qbz-Bs-M96" customClass="SettingsViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ugu-01-nbE"/>
@@ -391,14 +366,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="KmP-uK-zyn"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ohn-ux-SHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1689" y="0.0"/>
+            <point key="canvasLocation" x="-946" y="0.0"/>
         </scene>
-        <!--Item 3-->
+        <!--ClassInfo-->
         <scene sceneID="yBq-Tw-dJ0">
             <objects>
-                <viewController id="KDM-Ux-iGC" userLabel="Item 3" customClass="ClassesViewController" customModule="AttendanceTracker" sceneMemberID="viewController">
+                <viewController id="KDM-Ux-iGC" userLabel="ClassInfo" customClass="ClassesViewController" customModule="AttendanceTracker" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tQY-np-P6Z"/>
                         <viewControllerLayoutGuide type="bottom" id="N6o-Rt-Kop"/>
@@ -412,7 +386,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TR6-wg-XtS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="96.799999999999997" y="-0.44977511244377816"/>
+            <point key="canvasLocation" x="1250" y="-55"/>
         </scene>
         <!--Item 3-->
         <scene sceneID="3o3-01-xDF">
@@ -438,12 +412,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DrM-wE-auT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-820" y="-0.44977511244377816"/>
+            <point key="canvasLocation" x="97" y="-55"/>
         </scene>
-        <!--Item 1-->
+        <!--Reports-->
         <scene sceneID="3fG-Sz-eyM">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wSW-w2-tJ4" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wSW-w2-tJ4" userLabel="Reports" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item 1" id="txF-f1-nzr"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="8Kv-SJ-7sT">
@@ -460,7 +434,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rt8-cg-79a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-502" y="-1576"/>
+            <point key="canvasLocation" x="199" y="-1803"/>
         </scene>
         <!--Item 4-->
         <scene sceneID="g7J-Il-CrP">
@@ -482,12 +456,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nDy-Z6-nwZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2548" y="0.0"/>
+            <point key="canvasLocation" x="-1892" y="0.0"/>
         </scene>
-        <!--Item 3-->
+        <!--Attendance-->
         <scene sceneID="og8-eR-2dm">
             <objects>
-                <viewController id="4Sp-Bd-U9S" userLabel="Item 3" customClass="ChatViewController" customModule="AttendanceTracker" sceneMemberID="viewController">
+                <viewController id="4Sp-Bd-U9S" customClass="ChatViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="afe-Km-8hH"/>
                         <viewControllerLayoutGuide type="bottom" id="NwM-c4-J7S"/>
@@ -495,103 +469,20 @@
                     <view key="view" contentMode="scaleToFill" id="gPU-69-QYp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Fld-Zt-jIX">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="523"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="9d2-PS-Xzf">
-                                    <size key="itemSize" width="320" height="85"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="ChatCollectionViewCell" id="AFE-lc-7Si" customClass="ChatCollectionViewCell" customModule="AttendanceTracker" customModuleProvider="target">
-                                        <rect key="frame" x="27.5" y="0.0" width="320" height="85"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_01" translatesAutoresizingMaskIntoConstraints="NO" id="tnk-U1-3Vc" userLabel="photoImageView">
-                                                    <rect key="frame" x="10" y="15" width="55" height="55"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="55" id="dZv-fT-skN"/>
-                                                        <constraint firstAttribute="width" constant="55" id="i4z-Mo-WC1"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ann Drewer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bk5-Fl-YRD" userLabel="nameLabel">
-                                                    <rect key="frame" x="80" y="23" width="105" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Code-Pro-LC" family="Code Pro LC" pointSize="18"/>
-                                                    <color key="textColor" red="0.42745098040000001" green="0.81176470590000005" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" fixedFrame="YES" text="Great news! And when will you..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pks-ay-f0b" userLabel="messageLabel">
-                                                    <rect key="frame" x="80" y="46" width="202" height="16"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="13"/>
-                                                    <color key="textColor" red="0.85882352939999995" green="0.86274509799999999" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Yesterday, 7:37 P.M." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftI-17-chm" userLabel="dateLabel">
-                                                    <rect key="frame" x="211" y="10" width="99" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="LcT-F9-y2X"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="11"/>
-                                                    <color key="textColor" red="0.6705882353" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notification" translatesAutoresizingMaskIntoConstraints="NO" id="DCh-NF-TQh">
-                                                    <rect key="frame" x="302" y="34" width="18" height="18"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="18" id="3fj-lr-X31"/>
-                                                        <constraint firstAttribute="height" constant="18" id="pPt-7w-rOH"/>
-                                                    </constraints>
-                                                </imageView>
-                                            </subviews>
-                                        </view>
-                                        <color key="backgroundColor" red="0.40000000000000002" green="0.38823529410000002" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="ftI-17-chm" secondAttribute="trailing" constant="10" id="NKo-mD-elB"/>
-                                            <constraint firstAttribute="trailing" secondItem="DCh-NF-TQh" secondAttribute="trailing" id="ONL-qb-mKV"/>
-                                            <constraint firstAttribute="centerY" secondItem="DCh-NF-TQh" secondAttribute="centerY" id="dbr-4k-4gH"/>
-                                            <constraint firstItem="tnk-U1-3Vc" firstAttribute="leading" secondItem="AFE-lc-7Si" secondAttribute="leading" constant="10" id="hRf-4l-He1"/>
-                                            <constraint firstItem="ftI-17-chm" firstAttribute="top" secondItem="AFE-lc-7Si" secondAttribute="top" constant="10" id="iqx-zb-2fk"/>
-                                            <constraint firstAttribute="bottom" secondItem="tnk-U1-3Vc" secondAttribute="bottom" constant="15" id="j3l-ZS-uuG"/>
-                                        </constraints>
-                                        <connections>
-                                            <outlet property="chatImageView" destination="tnk-U1-3Vc" id="OHz-5h-NcQ"/>
-                                            <outlet property="dateLabel" destination="ftI-17-chm" id="aTJ-c4-pw6"/>
-                                            <outlet property="messageLabel" destination="Pks-ay-f0b" id="XKb-TT-ntj"/>
-                                            <outlet property="notificationImageView" destination="DCh-NF-TQh" id="pkG-dp-DrD"/>
-                                            <outlet property="userNameLabel" destination="Bk5-Fl-YRD" id="BdU-wg-A1R"/>
-                                        </connections>
-                                    </collectionViewCell>
-                                </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="4Sp-Bd-U9S" id="4Wm-Vb-xrB"/>
-                                    <outlet property="delegate" destination="4Sp-Bd-U9S" id="Jc7-CC-gEb"/>
-                                </connections>
-                            </collectionView>
-                        </subviews>
                         <color key="backgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Fld-Zt-jIX" firstAttribute="top" secondItem="afe-Km-8hH" secondAttribute="bottom" id="0nF-Re-cZb"/>
-                            <constraint firstItem="Fld-Zt-jIX" firstAttribute="leading" secondItem="gPU-69-QYp" secondAttribute="leading" id="Ryv-d9-3so"/>
-                            <constraint firstAttribute="trailing" secondItem="Fld-Zt-jIX" secondAttribute="trailing" id="oMQ-3I-yV2"/>
-                            <constraint firstAttribute="bottom" secondItem="Fld-Zt-jIX" secondAttribute="bottom" constant="80" id="pyv-mP-pjP"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Attendance" id="tvP-hO-sfu"/>
-                    <connections>
-                        <outlet property="collectionView" destination="Fld-Zt-jIX" id="9Us-KY-9gg"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Attendance" id="tvP-hO-sfu">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="KbQ-f2-O6L">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="broadcastBeaconWithSender:" destination="4Sp-Bd-U9S" id="OAa-sz-AQz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AYE-Jl-o3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="764" y="-828.03598200899557"/>
+            <point key="canvasLocation" x="1182" y="-995"/>
         </scene>
         <!--Item-->
         <scene sceneID="1Dx-QQ-Jsu">
@@ -613,7 +504,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t2J-C8-rFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-31" y="-828"/>
+            <point key="canvasLocation" x="97" y="-995"/>
         </scene>
     </scenes>
     <resources>
@@ -896,9 +787,7 @@ AbQBwQHWAdsB3wHhAeMB5QHuAfMB+QIBAgMCBQIHAgkCDgIWE4IThBOJE5cTmxOiE6cTtBO3E8QTyRPR
 E9QT2RPhE+QT9hP5E/4AAAAAAAACAQAAAAAAAABXAAAAAAAAAAAAAAAAAAAUAA
 </mutableData>
         </image>
-        <image name="img_01" width="56" height="56"/>
         <image name="logo1" width="77" height="77"/>
         <image name="logo2" width="77" height="77"/>
-        <image name="notification" width="18" height="18"/>
     </resources>
 </document>

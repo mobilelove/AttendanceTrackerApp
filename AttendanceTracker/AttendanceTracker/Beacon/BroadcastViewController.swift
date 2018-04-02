@@ -82,7 +82,12 @@ extension BroadcastViewController
 
 extension BroadcastViewController
 {
-    @IBAction fileprivate func broadcastBeacon(sender: UIButton) -> Void
+    
+    
+    
+    
+    
+    @IBAction fileprivate func broadcastBeacon(sender: UIBarButtonItem) -> Void
     {
         let state: CBManagerState = self.peripheralManager!.state
         
@@ -175,7 +180,7 @@ extension BroadcastViewController: CBPeripheralManagerDelegate
             self.statusLabel.text = "Bluetooth Off"
             
             if self.broadcasting {
-                self.broadcastBeacon(sender: self.triggerButton)
+               // self.broadcastBeacon(sender: self.triggerButton)
             }
         }
         

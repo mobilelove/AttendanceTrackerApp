@@ -16,9 +16,6 @@
 		60D88D0A207162B40046C318 /* StudentProfileMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88D09207162B40046C318 /* StudentProfileMain.storyboard */; };
 		60D88D0E207166DD0046C318 /* StudentClassesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88D0D207166DD0046C318 /* StudentClassesViewController.storyboard */; };
 		60D88D122071681C0046C318 /* StudentClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D112071681C0046C318 /* StudentClassesViewController.swift */; };
-		60D88D17207177590046C318 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D16207177590046C318 /* BroadcastViewController.swift */; };
-		60D88D192071776A0046C318 /* ReceiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D182071776A0046C318 /* ReceiverViewController.swift */; };
-		60D88D1B207177860046C318 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D1A207177860046C318 /* Configuration.swift */; };
 		60D88D1D207177D90046C318 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D88D1C207177D90046C318 /* CoreBluetooth.framework */; };
 		60D88D1F207177E40046C318 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D88D1E207177E40046C318 /* CoreLocation.framework */; };
 		60E8036D207160E700B89815 /* InteractiveSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; };
@@ -48,9 +45,6 @@
 		D8D79B4120708F3C00EFF19C /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B3220708F3C00EFF19C /* YALTabBarItem.m */; };
 		D8D79B4220708F3C00EFF19C /* YALCustomHeightTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B3520708F3C00EFF19C /* YALCustomHeightTabBar.m */; };
 		D8D79B4320708F3C00EFF19C /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B3920708F3C00EFF19C /* YALFoldingTabBar.m */; };
-		D8D79B4620708FB500EFF19C /* YALChatDemoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8D79B4520708FB500EFF19C /* YALChatDemoList.plist */; };
-		D8D79B482070909600EFF19C /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B472070909600EFF19C /* ChatCollectionViewCell.swift */; };
-		D8D79B4B2070909E00EFF19C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B492070909E00EFF19C /* ChatViewController.swift */; };
 		D8D79B5220709D7E00EFF19C /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B5120709D7E00EFF19C /* ClassesViewController.swift */; };
 		D8D79B5420709D9000EFF19C /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B5320709D9000EFF19C /* CalendarViewController.swift */; };
 		D8D79B5620709DA500EFF19C /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B5520709DA500EFF19C /* ReportsViewController.swift */; };
@@ -104,9 +98,6 @@
 		60D88D09207162B40046C318 /* StudentProfileMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentProfileMain.storyboard; sourceTree = "<group>"; };
 		60D88D0D207166DD0046C318 /* StudentClassesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentClassesViewController.storyboard; sourceTree = "<group>"; };
 		60D88D112071681C0046C318 /* StudentClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClassesViewController.swift; sourceTree = "<group>"; };
-		60D88D16207177590046C318 /* BroadcastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
-		60D88D182071776A0046C318 /* ReceiverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverViewController.swift; sourceTree = "<group>"; };
-		60D88D1A207177860046C318 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		60D88D1C207177D90046C318 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		60D88D1E207177E40046C318 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = InteractiveSideMenu.xcodeproj; sourceTree = "<group>"; };
@@ -151,9 +142,6 @@
 		D8D79B3820708F3C00EFF19C /* YALFoldingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALFoldingTabBar.h; sourceTree = "<group>"; };
 		D8D79B3920708F3C00EFF19C /* YALFoldingTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALFoldingTabBar.m; sourceTree = "<group>"; };
 		D8D79B4420708F9C00EFF19C /* AttendanceTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AttendanceTracker-Bridging-Header.h"; sourceTree = "<group>"; };
-		D8D79B4520708FB500EFF19C /* YALChatDemoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YALChatDemoList.plist; sourceTree = "<group>"; };
-		D8D79B472070909600EFF19C /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
-		D8D79B492070909E00EFF19C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		D8D79B5120709D7E00EFF19C /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
 		D8D79B5320709D9000EFF19C /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		D8D79B5520709DA500EFF19C /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
@@ -225,16 +213,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		60D88D14207177440046C318 /* Beacon */ = {
-			isa = PBXGroup;
-			children = (
-				60D88D1A207177860046C318 /* Configuration.swift */,
-				60D88D16207177590046C318 /* BroadcastViewController.swift */,
-				60D88D182071776A0046C318 /* ReceiverViewController.swift */,
-			);
-			path = Beacon;
-			sourceTree = "<group>";
-		};
 		60E80367207160AB00B89815 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,7 +280,6 @@
 				60F6313020713D24006FA085 /* StudentProfileMode */,
 				60F6312F20713D06006FA085 /* TeacherProfileMode */,
 				D8D79B592070A1E200EFF19C /* External */,
-				60D88D14207177440046C318 /* Beacon */,
 				D8D79B4420708F9C00EFF19C /* AttendanceTracker-Bridging-Header.h */,
 				D8D79ADD2070769B00EFF19C /* Assets.xcassets */,
 				D8D79AFA20707D1000EFF19C /* Main.storyboard */,
@@ -328,7 +305,6 @@
 				D8D79B4E20709D0400EFF19C /* Calendar */,
 				D8D79B4F20709D2600EFF19C /* Reports */,
 				D8D79B5020709D2F00EFF19C /* Settings */,
-				D8D79B492070909E00EFF19C /* ChatViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -336,8 +312,6 @@
 		D8D79AF8207076E400EFF19C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D8D79B4520708FB500EFF19C /* YALChatDemoList.plist */,
-				D8D79B472070909600EFF19C /* ChatCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -681,7 +655,6 @@
 				60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */,
 				60D88D0A207162B40046C318 /* StudentProfileMain.storyboard in Resources */,
 				D8D79B3E20708F3C00EFF19C /* Info.plist in Resources */,
-				D8D79B4620708FB500EFF19C /* YALChatDemoList.plist in Resources */,
 				D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */,
 				D8D79AE12070769B00EFF19C /* LaunchScreen.storyboard in Resources */,
 				D8D79ADE2070769B00EFF19C /* Assets.xcassets in Resources */,
@@ -711,16 +684,12 @@
 				D8D79B4220708F3C00EFF19C /* YALCustomHeightTabBar.m in Sources */,
 				D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */,
 				D8D79B012070842900EFF19C /* TongueView.swift in Sources */,
-				60D88D192071776A0046C318 /* ReceiverViewController.swift in Sources */,
 				D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */,
 				D8D79B3F20708F3C00EFF19C /* YALSpringAnimation.m in Sources */,
-				60D88D1B207177860046C318 /* Configuration.swift in Sources */,
 				D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */,
-				60D88D17207177590046C318 /* BroadcastViewController.swift in Sources */,
 				D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */,
 				60D88D05207162770046C318 /* Storyboardable.swift in Sources */,
 				D8D79AFD207083D100EFF19C /* LoginViewController.swift in Sources */,
-				D8D79B4B2070909E00EFF19C /* ChatViewController.swift in Sources */,
 				D8D79B4320708F3C00EFF19C /* YALFoldingTabBar.m in Sources */,
 				D8D79B3B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				D8D79B0F207084F200EFF19C /* Extensions.swift in Sources */,
@@ -736,7 +705,6 @@
 				60D88D122071681C0046C318 /* StudentClassesViewController.swift in Sources */,
 				60D88CF32071622B0046C318 /* HostViewController.swift in Sources */,
 				D8D79B5820709DB300EFF19C /* SettingsViewController.swift in Sources */,
-				D8D79B482070909600EFF19C /* ChatCollectionViewCell.swift in Sources */,
 				D8D79B3D20708F3C00EFF19C /* YALAnimatingTabBarConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
