@@ -67,7 +67,7 @@ class HostViewController: MenuContainerViewController {
         let ClassesViewController = StudentClassesViewController.storyboardViewController()
         let ProfileViewController = StudentProfileViewController.storyboardViewController()
         let ReportViewController = StudentReportViewController.storyboardViewController()
-
+        
         return [ClassesViewController, ProfileViewController, ReportViewController]
     }
 }

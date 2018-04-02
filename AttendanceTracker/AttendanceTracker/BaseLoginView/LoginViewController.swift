@@ -134,9 +134,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         let studentStoryBoard = UIStoryboard(name: "StudentProfileMain", bundle: nil)
         let controller = studentStoryBoard.instantiateInitialViewController()
         
-      self.present(controller!, animated: true, completion: nil)
+      //self.present(controller!, animated: true, completion: nil)
 
-        /*
+
         
         let item1 = YALTabBarItem(itemImage: UIImage(named: "nearby_icon"), leftItemImage: nil, rightItemImage: nil)
         let item2 = YALTabBarItem(itemImage: UIImage(named: "profile_icon"), leftItemImage: nil, rightItemImage: nil)
@@ -161,7 +161,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         tabBarController?.tabBarView.tabBarItemsEdgeInsets = YALTabBarViewItemsDefaultEdgeInsets;
  
         self.present(tabBarController!, animated: true, completion: nil)
- */
+
  }
 }
 

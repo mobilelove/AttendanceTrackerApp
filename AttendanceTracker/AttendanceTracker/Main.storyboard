@@ -353,7 +353,6 @@
         <!--Settings-->
         <scene sceneID="sYP-RU-Htf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ohn-ux-SHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="qbz-Bs-M96" customClass="SettingsViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ugu-01-nbE"/>
@@ -366,6 +365,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="KmP-uK-zyn"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohn-ux-SHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-946" y="0.0"/>
         </scene>
@@ -461,7 +461,7 @@
         <!--Attendance-->
         <scene sceneID="og8-eR-2dm">
             <objects>
-                <viewController id="4Sp-Bd-U9S" customClass="ChatViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4Sp-Bd-U9S" customClass="AttendanceViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="afe-Km-8hH"/>
                         <viewControllerLayoutGuide type="bottom" id="NwM-c4-J7S"/>
