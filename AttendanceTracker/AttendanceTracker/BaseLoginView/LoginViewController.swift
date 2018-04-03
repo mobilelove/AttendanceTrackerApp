@@ -9,17 +9,82 @@
 import UIKit
 import InteractiveSideMenu
 
-class LoginViewController: UIViewController, UITextFieldDelegate {
+class LoginViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
+   @IBOutlet weak var LoginImgView: UIImageView!
     
-    override func viewDidLoad() {
+    @IBOutlet weak var UsernameTxtField: CustomTextField!
+    
+    
+    @IBOutlet weak var PasswordTxtField: CustomTextField!
+    
+      override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UsernameTxtField.delegate = self
+        PasswordTxtField.delegate = self
+         LoginImgView.layer.cornerRadius = LoginImgView.frame.size.width/2
+         LoginImgView.clipsToBounds = true
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name:NSNotification.Name.UIKeyboardWillShow, object: nil);
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name:NSNotification.Name.UIKeyboardWillHide, object: nil);
         
     }
-     
+    
+    
+    
+         @IBAction func EditBtnImg(_ sender: Any) {
+    
+            let image = UIImagePickerController()
+            image.delegate = self
+            image.sourceType = UIImagePickerControllerSourceType.photoLibrary
+            image.allowsEditing = true
+            self.present(image, animated: true, completion: nil)
+    
+      }
+
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        {
+          LoginImgView.image = image
+        }
+        else{
+            
+        }
+//            self.dismiss(animated: false, completion: nil)
+//
+//            var imageCropVC : RSKImageCropViewController!
+//
+//            imageCropVC = RSKImageCropViewController(image: image, cropMode: RSKImageCropMode.Circle)
+//
+//            imageCropVC.delegate = self
+//
+//            self.navigationController?.pushViewController(imageCropVC, animated: true)
+
+        
+        
+      self.dismiss(animated: true, completion: nil)
+    }
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        if textField == UsernameTxtField
+        {
+            PasswordTxtField.becomeFirstResponder()
+            
+        }else {
+              textField.resignFirstResponder()
+        }
+        return true
+    }
+    
+    
     @objc func keyboardWillShow(notification: NSNotification) {
         
     }
@@ -28,15 +93,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     }
     
-    
-    @objc func dissmisKeyboard() {
-        view.endEditing(true)
-    }
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        view.endEditing(true)
-        return true
-    }
+
     
     @IBAction func onLoginBtnTapped(_ sender: Any) {
         setupYALTabBarController()
