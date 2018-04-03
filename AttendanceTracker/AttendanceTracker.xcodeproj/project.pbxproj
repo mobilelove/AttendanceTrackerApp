@@ -39,11 +39,6 @@
 		D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D79AFA20707D1000EFF19C /* Main.storyboard */; };
 		D8D79AFD207083D100EFF19C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AFC207083D100EFF19C /* LoginViewController.swift */; };
 		D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79AFE2070840000EFF19C /* CustomTextField.swift */; };
-		D8D79B012070842900EFF19C /* TongueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B002070842900EFF19C /* TongueView.swift */; };
-		D8D79B072070849F00EFF19C /* SwipeMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B052070849E00EFF19C /* SwipeMaskLayer.swift */; };
-		D8D79B082070849F00EFF19C /* TongueSwipeControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B062070849E00EFF19C /* TongueSwipeControllerType.swift */; };
-		D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B09207084AB00EFF19C /* RotatedMovedContainerLayer.swift */; };
-		D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B0B207084B500EFF19C /* JumpAnimator.swift */; };
 		D8D79B0F207084F200EFF19C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B0E207084F200EFF19C /* Extensions.swift */; };
 		D8D79B11207084FF00EFF19C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B10207084FF00EFF19C /* SignUpViewController.swift */; };
 		D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D79B1820708F3C00EFF19C /* UIView+Insets.m */; };
@@ -136,11 +131,6 @@
 		D8D79AFA20707D1000EFF19C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D8D79AFC207083D100EFF19C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D8D79AFE2070840000EFF19C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		D8D79B002070842900EFF19C /* TongueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TongueView.swift; sourceTree = "<group>"; };
-		D8D79B052070849E00EFF19C /* SwipeMaskLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeMaskLayer.swift; sourceTree = "<group>"; };
-		D8D79B062070849E00EFF19C /* TongueSwipeControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TongueSwipeControllerType.swift; sourceTree = "<group>"; };
-		D8D79B09207084AB00EFF19C /* RotatedMovedContainerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedMovedContainerLayer.swift; sourceTree = "<group>"; };
-		D8D79B0B207084B500EFF19C /* JumpAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpAnimator.swift; sourceTree = "<group>"; };
 		D8D79B0E207084F200EFF19C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D8D79B10207084FF00EFF19C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D8D79B1720708F3C00EFF19C /* UIView+Insets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Insets.h"; sourceTree = "<group>"; };
@@ -369,27 +359,14 @@
 				D8D79B10207084FF00EFF19C /* SignUpViewController.swift */,
 				D8D79AFC207083D100EFF19C /* LoginViewController.swift */,
 				D8D79B0D207084CA00EFF19C /* CustomControl */,
-				D8D79B042070848D00EFF19C /* Transition Logic */,
 				D8D79B0E207084F200EFF19C /* Extensions.swift */,
 			);
 			path = BaseLoginView;
 			sourceTree = "<group>";
 		};
-		D8D79B042070848D00EFF19C /* Transition Logic */ = {
-			isa = PBXGroup;
-			children = (
-				D8D79B0B207084B500EFF19C /* JumpAnimator.swift */,
-				D8D79B09207084AB00EFF19C /* RotatedMovedContainerLayer.swift */,
-				D8D79B052070849E00EFF19C /* SwipeMaskLayer.swift */,
-				D8D79B062070849E00EFF19C /* TongueSwipeControllerType.swift */,
-			);
-			path = "Transition Logic";
-			sourceTree = "<group>";
-		};
 		D8D79B0D207084CA00EFF19C /* CustomControl */ = {
 			isa = PBXGroup;
 			children = (
-				D8D79B002070842900EFF19C /* TongueView.swift */,
 				D8D79AFE2070840000EFF19C /* CustomTextField.swift */,
 			);
 			path = CustomControl;
@@ -740,24 +717,19 @@
 				D83E2FC02071DBBA00D16FA4 /* WeekdaysView.swift in Sources */,
 				D8D79B4220708F3C00EFF19C /* YALCustomHeightTabBar.m in Sources */,
 				D8D79AFF2070840000EFF19C /* CustomTextField.swift in Sources */,
-				D8D79B012070842900EFF19C /* TongueView.swift in Sources */,
 				D8D79B3A20708F3C00EFF19C /* UIView+Insets.m in Sources */,
 				D83E2FA82071C46200D16FA4 /* StudentReportViewController.swift in Sources */,
 				D83E2FBE2071DBBA00D16FA4 /* CalenderView.swift in Sources */,
 				D8D79B3F20708F3C00EFF19C /* YALSpringAnimation.m in Sources */,
 				D83E2FBF2071DBBA00D16FA4 /* MonthView.swift in Sources */,
-				D8D79B0A207084AB00EFF19C /* RotatedMovedContainerLayer.swift in Sources */,
-				D8D79B0C207084B500EFF19C /* JumpAnimator.swift in Sources */,
 				60D88D05207162770046C318 /* Storyboardable.swift in Sources */,
 				D8D79AFD207083D100EFF19C /* LoginViewController.swift in Sources */,
 				D8D79B4320708F3C00EFF19C /* YALFoldingTabBar.m in Sources */,
 				D8D79B3B20708F3C00EFF19C /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				D8D79B0F207084F200EFF19C /* Extensions.swift in Sources */,
-				D8D79B082070849F00EFF19C /* TongueSwipeControllerType.swift in Sources */,
 				D88AA8D420716B40009234E7 /* StudentProfileViewController.swift in Sources */,
 				D8D79B5620709DA500EFF19C /* ReportsViewController.swift in Sources */,
 				D8D79B4120708F3C00EFF19C /* YALTabBarItem.m in Sources */,
-				D8D79B072070849F00EFF19C /* SwipeMaskLayer.swift in Sources */,
 				D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */,
 				D8D79B5220709D7E00EFF19C /* ClassesViewController.swift in Sources */,
 				D8D79B3C20708F3C00EFF19C /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
