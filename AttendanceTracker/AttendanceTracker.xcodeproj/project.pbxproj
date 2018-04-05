@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6050910D2075DE31009B3438 /* RippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050910C2075DE31009B3438 /* RippleLayer.swift */; };
 		60B7E4E62071AE1B00607A8A /* InteractiveSideMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		60D88CF32071622B0046C318 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF02071622B0046C318 /* HostViewController.swift */; };
 		60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */; };
@@ -97,6 +98,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6050910C2075DE31009B3438 /* RippleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleLayer.swift; sourceTree = "<group>"; };
 		60D88CF02071622B0046C318 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
 		60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleMenuViewController.storyboard; sourceTree = "<group>"; };
 		60D88CF22071622B0046C318 /* SampleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleMenuViewController.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 		D8D79AD52070769B00EFF19C /* AttendanceTracker */ = {
 			isa = PBXGroup;
 			children = (
+				6050910C2075DE31009B3438 /* RippleLayer.swift */,
 				D8D79AD62070769B00EFF19C /* AppDelegate.swift */,
 				D8D79AF9207076EC00EFF19C /* BaseLoginView */,
 				60F6313020713D24006FA085 /* StudentProfileMode */,
@@ -732,6 +735,7 @@
 				D8D79B0F207084F200EFF19C /* Extensions.swift in Sources */,
 				D88AA8D420716B40009234E7 /* StudentProfileViewController.swift in Sources */,
 				D8D79B5620709DA500EFF19C /* ReportsViewController.swift in Sources */,
+				6050910D2075DE31009B3438 /* RippleLayer.swift in Sources */,
 				D8D79B4120708F3C00EFF19C /* YALTabBarItem.m in Sources */,
 				D8D79AD72070769B00EFF19C /* AppDelegate.swift in Sources */,
 				D8D79B5220709D7E00EFF19C /* ClassesViewController.swift in Sources */,

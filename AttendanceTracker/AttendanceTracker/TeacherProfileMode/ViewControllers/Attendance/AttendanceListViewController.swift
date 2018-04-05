@@ -43,7 +43,7 @@ class AttendanceListViewController: UIViewController {
             return
         }
         
-        self.broadcasting = true
+        self.broadcasting = !broadcasting
         
         self.advertising(start: self.broadcasting)
     }
@@ -54,9 +54,16 @@ class AttendanceListViewController: UIViewController {
             return
         }
         
+        
+        let rippleLayer = RippleLayer()
+        rippleLayer.position = CGPoint(x: self.view.layer.bounds.midX, y: self.view.layer.bounds.midY);
+        
+        self.view.layer.addSublayer(rippleLayer)
+        
+        
         if (!start) {
             self.peripheralManager!.stopAdvertising()
-            
+            rippleLayer.removeFromSuperlayer()
             return
         }
         
@@ -70,6 +77,7 @@ class AttendanceListViewController: UIViewController {
             peripheralData[CBAdvertisementDataLocalNameKey] = "iBeacon Demo"
             peripheralData[CBAdvertisementDataServiceUUIDsKey] = serviceUUIDs
             
+            rippleLayer.startAnimation()
             self.peripheralManager!.startAdvertising(peripheralData)
         }
     }
