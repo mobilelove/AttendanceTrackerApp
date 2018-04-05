@@ -178,7 +178,7 @@
         <!--Reports-->
         <scene sceneID="ram-Xp-9Q4">
             <objects>
-                <viewController id="PUM-H8-YSu" customClass="ReportsViewController" customModule="AttendanceTracker" sceneMemberID="viewController">
+                <viewController id="PUM-H8-YSu" customClass="ReportsViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JNF-hM-940"/>
                         <viewControllerLayoutGuide type="bottom" id="pmu-qv-Wm4"/>
@@ -186,7 +186,21 @@
                     <view key="view" contentMode="scaleToFill" id="oM9-bV-1W2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0y-qe-h7L">
+                                <rect key="frame" x="142.5" y="280.5" width="90" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Request"/>
+                                <connections>
+                                    <action selector="refreshBeaconsWithSender:" destination="PUM-H8-YSu" eventType="touchUpInside" id="3QI-l2-x2K"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.36862745098039218" green="0.35686274509803922" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d0y-qe-h7L" firstAttribute="centerY" secondItem="oM9-bV-1W2" secondAttribute="centerY" id="fkT-tn-auI"/>
+                            <constraint firstItem="d0y-qe-h7L" firstAttribute="centerX" secondItem="oM9-bV-1W2" secondAttribute="centerX" id="mNq-Bf-Nq9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Reports" id="Heq-wN-PsI"/>
                 </viewController>
@@ -348,7 +362,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AYE-Jl-o3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1181.5999999999999" y="-995.35232383808102"/>
+            <point key="canvasLocation" x="887" y="-995"/>
+        </scene>
+        <!--Attendance List View Controller-->
+        <scene sceneID="6Y2-aT-qKj">
+            <objects>
+                <viewController storyboardIdentifier="AttendanceListViewController" id="a3q-0a-CGq" customClass="AttendanceListViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jhZ-Ca-nC9"/>
+                        <viewControllerLayoutGuide type="bottom" id="CFX-ba-DKY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GuL-uU-GVm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZW0-5b-G99">
+                                <rect key="frame" x="68" y="309.5" width="239" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Start Broadcasting"/>
+                                <connections>
+                                    <action selector="startBroadCastingBeacon:" destination="a3q-0a-CGq" eventType="touchUpInside" id="444-ZX-XzB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36862745098039218" green="0.35686274509803922" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZW0-5b-G99" firstAttribute="centerX" secondItem="GuL-uU-GVm" secondAttribute="centerX" id="Kw9-PC-rGU"/>
+                            <constraint firstItem="ZW0-5b-G99" firstAttribute="centerY" secondItem="GuL-uU-GVm" secondAttribute="centerY" id="SnM-vP-3Iq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RQa-9X-qQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1783" y="-995"/>
         </scene>
         <!--Item-->
         <scene sceneID="1Dx-QQ-Jsu">

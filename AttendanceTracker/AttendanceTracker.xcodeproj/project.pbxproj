@@ -18,6 +18,7 @@
 		60D88D122071681C0046C318 /* StudentClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88D112071681C0046C318 /* StudentClassesViewController.swift */; };
 		60D88D1D207177D90046C318 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D88D1C207177D90046C318 /* CoreBluetooth.framework */; };
 		60D88D1F207177E40046C318 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D88D1E207177E40046C318 /* CoreLocation.framework */; };
+		60E5DE5B2075ADA6007275AF /* AttendanceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E5DE5A2075ADA6007275AF /* AttendanceListViewController.swift */; };
 		60E8036D207160E700B89815 /* InteractiveSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; };
 		D83E2FA62071C44700D16FA4 /* StudentReportViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83E2FA52071C44700D16FA4 /* StudentReportViewController.storyboard */; };
 		D83E2FA82071C46200D16FA4 /* StudentReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83E2FA72071C46200D16FA4 /* StudentReportViewController.swift */; };
@@ -106,6 +107,7 @@
 		60D88D112071681C0046C318 /* StudentClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClassesViewController.swift; sourceTree = "<group>"; };
 		60D88D1C207177D90046C318 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		60D88D1E207177E40046C318 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		60E5DE5A2075ADA6007275AF /* AttendanceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceListViewController.swift; sourceTree = "<group>"; };
 		60E80366207160AB00B89815 /* InteractiveSideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = InteractiveSideMenu.xcodeproj; sourceTree = "<group>"; };
 		D83E2FA52071C44700D16FA4 /* StudentReportViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentReportViewController.storyboard; sourceTree = "<group>"; };
 		D83E2FA72071C46200D16FA4 /* StudentReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentReportViewController.swift; sourceTree = "<group>"; };
@@ -547,6 +549,7 @@
 			isa = PBXGroup;
 			children = (
 				D8D79B5320709D9000EFF19C /* AttendanceViewController.swift */,
+				60E5DE5A2075ADA6007275AF /* AttendanceListViewController.swift */,
 				D83E2FBA2071DBBA00D16FA4 /* View */,
 				D83E2FAD2071DB9100D16FA4 /* Image */,
 			);
@@ -736,6 +739,7 @@
 				60D88D082071627D0046C318 /* SampleTableCell.swift in Sources */,
 				60D88D122071681C0046C318 /* StudentClassesViewController.swift in Sources */,
 				60D88CF32071622B0046C318 /* HostViewController.swift in Sources */,
+				60E5DE5B2075ADA6007275AF /* AttendanceListViewController.swift in Sources */,
 				D8D79B5820709DB300EFF19C /* SettingsViewController.swift in Sources */,
 				D8D79B3D20708F3C00EFF19C /* YALAnimatingTabBarConstants.m in Sources */,
 			);
@@ -890,7 +894,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89VPR7M3AL;
+				DEVELOPMENT_TEAM = X27U5W528L;
 				INFOPLIST_FILE = AttendanceTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -910,7 +914,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89VPR7M3AL;
+				DEVELOPMENT_TEAM = X27U5W528L;
 				INFOPLIST_FILE = AttendanceTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

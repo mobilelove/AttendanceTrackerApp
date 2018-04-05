@@ -19,12 +19,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classes info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5GA-dc-vWI">
-                                <rect key="frame" x="141" y="323" width="93" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yu-sh-EPP">
                                 <rect key="frame" x="15" y="13" width="44" height="44"/>
                                 <constraints>
@@ -36,14 +30,22 @@
                                     <action selector="openMenu:" destination="MKQ-fa-VzS" eventType="touchUpInside" id="khM-vc-sp5"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFK-cc-yMj">
+                                <rect key="frame" x="142" y="312.5" width="90" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Request"/>
+                                <connections>
+                                    <action selector="refreshBeaconsWithSender:" destination="MKQ-fa-VzS" eventType="touchUpInside" id="Ao7-Fb-FDN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5GA-dc-vWI" firstAttribute="centerX" secondItem="8V0-yg-iHk" secondAttribute="centerX" id="1Pr-0s-ffn"/>
-                            <constraint firstItem="5GA-dc-vWI" firstAttribute="centerY" secondItem="8V0-yg-iHk" secondAttribute="centerY" id="1fp-9I-Uqj"/>
                             <constraint firstItem="8yu-sh-EPP" firstAttribute="leading" secondItem="6L1-d7-LEP" secondAttribute="leading" constant="15" id="8VC-IB-jA9"/>
                             <constraint firstItem="6L1-d7-LEP" firstAttribute="top" secondItem="8yu-sh-EPP" secondAttribute="top" constant="7" id="PPb-1y-Idz"/>
                             <constraint firstItem="8yu-sh-EPP" firstAttribute="width" secondItem="8yu-sh-EPP" secondAttribute="height" multiplier="1:1" id="akE-8y-dNT"/>
+                            <constraint firstItem="XFK-cc-yMj" firstAttribute="centerX" secondItem="8V0-yg-iHk" secondAttribute="centerX" id="dVR-N4-eRg"/>
+                            <constraint firstItem="XFK-cc-yMj" firstAttribute="centerY" secondItem="8V0-yg-iHk" secondAttribute="centerY" id="wm2-K9-88Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6L1-d7-LEP"/>
                     </view>

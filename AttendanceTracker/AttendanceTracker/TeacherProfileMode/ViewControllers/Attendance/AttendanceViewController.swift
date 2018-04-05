@@ -43,7 +43,9 @@ class AttendanceViewController: UIViewController, YALTabBarDelegate, CalenderDel
     }
     
     @objc func rightBarBtnAction(sender: UIBarButtonItem) {
-        print(123)
+        
+        let attendanceListVC = self.storyboard?.instantiateViewController(withIdentifier: "AttendanceListViewController") as! AttendanceListViewController
+        self.navigationController?.pushViewController(attendanceListVC, animated: true)
     }
     
     @objc func dismissVC(sender: UIBarButtonItem) {
@@ -65,6 +67,12 @@ class AttendanceViewController: UIViewController, YALTabBarDelegate, CalenderDel
         }
     }
     
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        
+//        let attendanceListVC = segue.destination as! AttendanceListViewController
+//        
+//    }
     
     
     fileprivate func showAlert(){
