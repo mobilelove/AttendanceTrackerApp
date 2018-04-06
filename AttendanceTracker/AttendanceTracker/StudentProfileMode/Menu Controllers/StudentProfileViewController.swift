@@ -31,4 +31,7 @@ class StudentProfileViewController: UIViewController, SideMenuItemContent, Story
         showSideMenu()
     }
 
+ @IBAction func LogoutBtn(_ sender: UIButton) {
+      self.dismiss(animated: true, completion: nil)
+    }
 }
