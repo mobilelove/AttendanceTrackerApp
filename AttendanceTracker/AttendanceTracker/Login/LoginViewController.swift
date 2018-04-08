@@ -25,12 +25,14 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
     
     //MARK: - IBActions methods
     @IBAction func LoginBtn(_ sender: Any) {
+        
+        self.setupTeacherProfileView()
 
-                if(self.UsernameTxtField.text == "teacher"){
+              /*  if(self.UsernameTxtField.text == "teacher"){
                     self.setupTeacherProfileView()
                 }else{
                     self.setupStudentProfileView()
-                }
+                }*/
     
 //        guard let email = UsernameTxtField.text, UsernameTxtField.text?.count != 0 else {
 //            self.showAlertFor(title: "Alert", message: "Please enter e-mail id")
@@ -69,9 +71,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
 //
 //    }
     
-
-    
-    
+    /*
     func setupTeacherProfileView() -> Void {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -101,6 +101,16 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
         tabBarController?.tabBarView.tabBarItemsEdgeInsets = YALTabBarViewItemsDefaultEdgeInsets;
         
         self.present(tabBarController!, animated: true, completion: nil)
+    }
+    */
+    
+    func setupTeacherProfileView() -> Void {
+        
+        let storyboard = UIStoryboard(name: "TeacherMain", bundle: nil)
+        let teacherTabbarController = storyboard.instantiateInitialViewController()
+        
+        self.present(teacherTabbarController!, animated: true, completion: nil)
+    
     }
     
     

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageName</key>
+		<string>img_02</string>
+		<key>studName</key>
+		<string>Richard E. Bateman</string>
+		<key>studID</key>
+		<string>140854</string>
+		<key>status</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>imageName</key>
+		<string>img_03</string>
+		<key>studName</key>
+		<string>Harold Horst</string>
+		<key>studID</key>
+		<string>140219</string>
+		<key>status</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>imageName</key>
+		<string>img_02</string>
+		<key>studName</key>
+		<string>John L. Hamilton</string>
+		<key>studID</key>
+		<string>140963</string>
+		<key>status</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>imageName</key>
+		<string>img_04</string>
+		<key>studName</key>
+		<string>James B. Lindberg</string>
+		<key>studID</key>
+		<string>140758</string>
+		<key>status</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>imageName</key>
+		<string>img_01</string>
+		<key>studName</key>
+		<string>Phillip Lane</string>
+		<key>studID</key>
+		<string>140854</string>
+		<key>status</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>imageName</key>
+		<string>img_02</string>
+		<key>studName</key>
+		<string>Fred Jackson</string>
+		<key>studID</key>
+		<string>140589</string>
+		<key>status</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>imageName</key>
+		<string>img_03</string>
+		<key>studName</key>
+		<string>Andrew J. Hreha</string>
+		<key>studID</key>
+		<string>140563</string>
+		<key>status</key>
+		<false/>
+	</dict>
+</array>
+</plist>

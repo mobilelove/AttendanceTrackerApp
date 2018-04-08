@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>img_01</string>
+				<key>teacherName</key>
+				<string>Maria Montessori</string>
+				<key>teacherID</key>
+				<string>47896523</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>className</key>
+				<string>Data Structure and Algorithm</string>
+				<key>classID</key>
+				<string>CS 2109</string>
+				<key>classTime</key>
+				<string>9:00 AM - 10:00 AM</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>Fundamental Programming Concepts</string>
+				<key>classID</key>
+				<string>CS 1109</string>
+				<key>classTime</key>
+				<string>9:00 AM - 10:00 AM</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>Transition to Object-Oriented Programming</string>
+				<key>classID</key>
+				<string>CS 1130</string>
+				<key>classTime</key>
+				<string>9:00 AM - 10:00 AM</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>Introductory Design and Programming for the Web</string>
+				<key>classID</key>
+				<string>CS 1300</string>
+				<key>classTime</key>
+				<string>9:00 AM - 10:00 AM</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>Introduction to Cognitive Science</string>
+				<key>classID</key>
+				<string>CS 1710</string>
+				<key>classTime</key>
+				<string>9:00 AM - 10:00 AM</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>Embedded Systems</string>
+				<key>classID</key>
+				<string>CS 3420</string>
+				<key>classTime</key>
+				<string>9:00 AM - 10:00 AM</string>
+			</dict>
+		</array>
+		<key>Section</key>
+		<dict>
+			<key>titleName</key>
+			<string>Class Informations</string>
+		</dict>
+	</dict>
+</array>
+</plist>
