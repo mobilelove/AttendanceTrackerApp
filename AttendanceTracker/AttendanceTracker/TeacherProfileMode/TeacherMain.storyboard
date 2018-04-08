@@ -13,22 +13,81 @@
     </dependencies>
     <customFonts key="customFonts">
         <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
             <string>HelveticaNeue-Bold</string>
         </array>
     </customFonts>
     <scenes>
-        <!--Classes-->
+        <!--Registered classes-->
         <scene sceneID="8tF-QL-6rn">
             <objects>
                 <viewController id="B7c-Fu-VR0" customClass="ClassesViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TbP-V2-C5l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZUI-XF-QcY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ClassInfo" rowHeight="80" id="iSE-Zx-gMU" customClass="ClassInfoCell" customModule="AttendanceTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iSE-Zx-gMU" id="8e5-L6-6Sh">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="OWX-lY-evP">
+                                                    <rect key="frame" x="20" y="21" width="315" height="42.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Data Structure and Algorithm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewD-Kv-4rh">
+                                                            <rect key="frame" x="0.0" y="0.0" width="315" height="20.5"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Course Code : 100478" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykH-IK-TNu">
+                                                            <rect key="frame" x="0.0" y="22.5" width="315" height="20"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="OWX-lY-evP" firstAttribute="leading" secondItem="8e5-L6-6Sh" secondAttribute="leading" constant="20" id="JPK-L6-DXd"/>
+                                                <constraint firstAttribute="trailing" secondItem="OWX-lY-evP" secondAttribute="trailing" constant="40" id="UML-c8-eGx"/>
+                                                <constraint firstAttribute="bottom" secondItem="OWX-lY-evP" secondAttribute="bottom" constant="16" id="WAP-BU-tK9"/>
+                                                <constraint firstItem="OWX-lY-evP" firstAttribute="top" secondItem="8e5-L6-6Sh" secondAttribute="top" constant="21" id="eQk-yf-ZkN"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.58431372550000005" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <outlet property="idLbl" destination="ykH-IK-TNu" id="Y3c-lU-qAk"/>
+                                            <outlet property="nameLbl" destination="ewD-Kv-4rh" id="YKf-L9-2co"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="B7c-Fu-VR0" id="etM-TD-R99"/>
+                                    <outlet property="delegate" destination="B7c-Fu-VR0" id="Sh5-8a-Uvj"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZUI-XF-QcY" firstAttribute="top" secondItem="VFV-UY-zmF" secondAttribute="top" id="FZb-VE-TWH"/>
+                            <constraint firstItem="VFV-UY-zmF" firstAttribute="trailing" secondItem="ZUI-XF-QcY" secondAttribute="trailing" id="IgM-2N-Xa1"/>
+                            <constraint firstItem="VFV-UY-zmF" firstAttribute="bottom" secondItem="ZUI-XF-QcY" secondAttribute="bottom" id="j0H-8z-Bea"/>
+                            <constraint firstItem="ZUI-XF-QcY" firstAttribute="leading" secondItem="VFV-UY-zmF" secondAttribute="leading" id="o3f-9Y-aeX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VFV-UY-zmF"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Classes" id="dSa-Yu-ACU"/>
+                    <navigationItem key="navigationItem" title="Registered classes" id="dSa-Yu-ACU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qNX-zR-bqM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -110,18 +169,18 @@
                                                         <constraint firstAttribute="height" constant="60" id="Td0-FC-ybx"/>
                                                     </constraints>
                                                 </imageView>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gk2-2g-dyb">
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="gk2-2g-dyb">
                                                     <rect key="frame" x="95" y="25.5" width="240" height="49"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maria Montessori" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuF-WS-JeX">
-                                                            <rect key="frame" x="0.0" y="0.0" width="140" height="21"/>
-                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Maria Montessori" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuF-WS-JeX">
+                                                            <rect key="frame" x="0.0" y="0.0" width="167" height="26"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID: 47896523" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAa-7T-ROU">
-                                                            <rect key="frame" x="0.0" y="31" width="95.5" height="18"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <rect key="frame" x="0.0" y="32" width="90" height="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -341,7 +400,7 @@
                     <navigationItem key="navigationItem" title="Students" id="x7z-Uj-Lxf">
                         <rightBarButtonItems>
                             <barButtonItem style="plain" id="JAK-yO-xYB"/>
-                            <barButtonItem title="Item" image="beacon" id="oLr-kt-uqL">
+                            <barButtonItem image="beacon" id="oLr-kt-uqL">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="startBroadCastingBeacon:" destination="yFc-MJ-1qS" id="sxG-5L-ZAp"/>

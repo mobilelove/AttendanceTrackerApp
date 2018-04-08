@@ -54,7 +54,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         if section == 1{
             let tableviewCell = tableView.dequeueReusableCell(withIdentifier: "SectionInfo") as! SectionInfoCell
-            tableviewCell.sectionNameLbl?.text = "Class Informations"
+            tableviewCell.sectionNameLbl?.text = "Today's Class Informations"
             return tableviewCell
         }
         

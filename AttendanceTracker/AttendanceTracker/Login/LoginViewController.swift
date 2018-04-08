@@ -25,9 +25,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
     //MARK: - IBActions methods
     @IBAction func LoginBtn(_ sender: Any) {
         
-     //  self.setupTeacherProfileView()
+       self.setupTeacherProfileView()
 
-       self.setupStudentProfileView()
+    //   self.setupStudentProfileView()
         
               /*  if(self.UsernameTxtField.text == "teacher"){
                     self.setupTeacherProfileView()
