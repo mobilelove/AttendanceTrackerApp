@@ -21,19 +21,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="gyj-vl-hbX">
-                                <rect key="frame" x="138" y="45" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="PDS-xQ-EtZ"/>
-                                    <constraint firstAttribute="height" constant="100" id="t3b-sx-Ad5"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="education" translatesAutoresizingMaskIntoConstraints="NO" id="0FS-f6-vnE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="2oI-7D-QNJ" customClass="CustomTextField" customModule="AttendanceTracker" customModuleProvider="target">
-                                <rect key="frame" x="97" y="256" width="180" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="180" id="pLl-0Y-IVA"/>
-                                    <constraint firstAttribute="height" constant="30" id="vh5-qh-08p"/>
-                                </constraints>
+                                <rect key="frame" x="87" y="233" width="200" height="40"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -42,10 +34,10 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Id" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fkE-EI-4qd" customClass="CustomTextField" customModule="AttendanceTracker" customModuleProvider="target">
-                                <rect key="frame" x="97" y="203" width="180" height="30"/>
+                                <rect key="frame" x="87" y="170" width="200" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="5pD-NY-VqN"/>
-                                    <constraint firstAttribute="width" constant="180" id="Ezn-Bw-Xgs"/>
+                                    <constraint firstAttribute="height" constant="40" id="5pD-NY-VqN"/>
+                                    <constraint firstAttribute="width" constant="200" id="Ezn-Bw-Xgs"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -55,7 +47,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSW-4K-K2a">
-                                <rect key="frame" x="137" y="327" width="101" height="51"/>
+                                <rect key="frame" x="137" y="314" width="101" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="LOG IN"/>
                                 <connections>
@@ -63,8 +55,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnf-Ux-Aun">
-                                <rect key="frame" x="30" y="418" width="141" height="33"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <rect key="frame" x="30" y="405" width="147" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Forgot Password?">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -73,8 +65,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUf-mY-V3l">
-                                <rect key="frame" x="283" y="418" width="62" height="33"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <rect key="frame" x="281" y="405" width="64" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -83,23 +75,25 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.01176470588" green="0.031372549020000001" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gyj-vl-hbX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="3fP-JE-TYQ"/>
                             <constraint firstItem="2oI-7D-QNJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9lU-mo-LPf"/>
                             <constraint firstItem="fkE-EI-4qd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C0T-dm-bRy"/>
-                            <constraint firstItem="fkE-EI-4qd" firstAttribute="top" secondItem="gyj-vl-hbX" secondAttribute="bottom" constant="58" id="KoY-NQ-HTs"/>
                             <constraint firstItem="zSW-4K-K2a" firstAttribute="top" secondItem="2oI-7D-QNJ" secondAttribute="bottom" constant="41" id="MRE-I6-zMj"/>
                             <constraint firstItem="Rnf-Ux-Aun" firstAttribute="centerY" secondItem="IUf-mY-V3l" secondAttribute="centerY" id="SpJ-pa-Eno"/>
                             <constraint firstItem="2oI-7D-QNJ" firstAttribute="top" secondItem="fkE-EI-4qd" secondAttribute="bottom" constant="23" id="Tze-HX-0SB"/>
                             <constraint firstItem="Rnf-Ux-Aun" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="UyO-kB-Kbz"/>
-                            <constraint firstItem="gyj-vl-hbX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="afq-7M-4dg"/>
+                            <constraint firstItem="0FS-f6-vnE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YCU-sH-Pth"/>
                             <constraint firstItem="Rnf-Ux-Aun" firstAttribute="top" secondItem="zSW-4K-K2a" secondAttribute="bottom" constant="40" id="dwB-ml-dVl"/>
                             <constraint firstItem="zSW-4K-K2a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hai-2D-byx"/>
+                            <constraint firstItem="fkE-EI-4qd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="lGF-E3-nmF"/>
                             <constraint firstItem="2oI-7D-QNJ" firstAttribute="width" secondItem="fkE-EI-4qd" secondAttribute="width" id="nCE-Jl-tUF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0FS-f6-vnE" secondAttribute="bottom" id="nMS-fG-iBM"/>
                             <constraint firstItem="2oI-7D-QNJ" firstAttribute="height" secondItem="fkE-EI-4qd" secondAttribute="height" id="o04-GL-YNN"/>
                             <constraint firstItem="2oI-7D-QNJ" firstAttribute="trailing" secondItem="fkE-EI-4qd" secondAttribute="trailing" id="oIa-5d-I1S"/>
+                            <constraint firstItem="0FS-f6-vnE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="orb-aQ-ODW"/>
                             <constraint firstAttribute="trailing" secondItem="IUf-mY-V3l" secondAttribute="trailing" constant="30" id="vUk-IZ-HGg"/>
+                            <constraint firstAttribute="trailing" secondItem="0FS-f6-vnE" secondAttribute="trailing" id="xis-pK-Tmr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Hhj-XD-xV5"/>
@@ -114,6 +108,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo1" width="77" height="77"/>
+        <image name="education" width="853" height="427"/>
     </resources>
 </document>
