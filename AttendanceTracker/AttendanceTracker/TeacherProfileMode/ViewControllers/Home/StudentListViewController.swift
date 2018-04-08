@@ -16,6 +16,8 @@ class StudentListViewController: UIViewController, UITableViewDelegate, UITableV
     fileprivate var beacon: CLBeaconRegion?
     fileprivate var peripheralManager: CBPeripheralManager?
     
+    fileprivate let rippleLayer = RippleLayer()
+    
     var studentsDataSource : Array<Any>?
     
     @IBOutlet var tableView : UITableView?
@@ -35,10 +37,47 @@ class StudentListViewController: UIViewController, UITableViewDelegate, UITableV
         self.peripheralManager = CBPeripheralManager(delegate: self, queue: nil)
         
     }
+
+    override func willMove(toParentViewController parent: UIViewController?) {
+        
+        if parent == nil {
+            
+            if self.broadcasting {
+                self.peripheralManager!.stopAdvertising()
+                self.rippleLayer.stopAnimation()
+                self.rippleLayer.removeFromSuperlayer()
+            }
+        }
+    }
+    
+    
+    func showAlertForBroadcastingModal() -> Void {
+        
+        let OKAction: UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: { (alert: UIAlertAction!) in
+            self.peripheralManager!.stopAdvertising()
+            
+            self.rippleLayer.stopAnimation()
+            
+            self.rippleLayer.removeFromSuperlayer()
+        })
+        
+        let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .default, handler: nil)
+        
+        let alert: UIAlertController = UIAlertController(title: "Alert", message: "Would you like to stop broascasting signal", preferredStyle: .alert)
+        alert.addAction(OKAction)
+        alert.addAction(cancelAction)
+        
+        self.present(alert, animated: true, completion: nil)
+    }
     
     @IBAction func startBroadCastingBeacon(_ sender: Any) {
         
         let state: CBManagerState = self.peripheralManager!.state
+        
+        if self.broadcasting {
+            self.showAlertForBroadcastingModal()
+            return
+        }
         
         if (state == .poweredOff && !self.broadcasting) {
             let OKAction: UIAlertAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
@@ -62,8 +101,7 @@ class StudentListViewController: UIViewController, UITableViewDelegate, UITableV
             return
         }
         
-        let rippleLayer = RippleLayer()
-        rippleLayer.position = CGPoint(x: self.view.layer.bounds.midX, y: self.view.layer.bounds.midY);
+        self.rippleLayer.position = CGPoint(x: self.view.layer.bounds.midX, y: self.view.layer.bounds.midY);
         self.tableView?.layer.addSublayer(rippleLayer)
         
         

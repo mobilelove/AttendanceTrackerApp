@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ReportsViewController: UIViewController, YALTabBarDelegate {
+class ReportsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,23 +19,6 @@ class ReportsViewController: UIViewController, YALTabBarDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-
-    func tabBarWillExpand(_ tabBar: YALFoldingTabBar) {
-        print("will expand")
-    }
-    
-    func tabBarDidExpand(_ tabBar: YALFoldingTabBar) {
-        print("did expand")
-    }
-    
-    func tabBarWillCollapse(_ tabBar: YALFoldingTabBar) {
-        print("will collapse")
-    }
-    
-    func tabBarDidCollapse(_ tabBar: YALFoldingTabBar) {
-        print("did collapse")
     }
 
 }
