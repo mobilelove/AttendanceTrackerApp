@@ -18,7 +18,7 @@
 		6057474C2079C48400EAF8BC /* StudentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057474B2079C48400EAF8BC /* StudentListViewController.swift */; };
 		6057474E2079C61100EAF8BC /* Students.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6057474D2079C61100EAF8BC /* Students.plist */; };
 		605747502079C8FA00EAF8BC /* StudentInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057474F2079C8FA00EAF8BC /* StudentInfoCell.swift */; };
-		605747A2207AADB000EAF8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605747A1207AADB000EAF8BC /* Assets.xcassets */; };
+		605747A7207AB30500EAF8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605747A6207AB30500EAF8BC /* Assets.xcassets */; };
 		60B7E4E62071AE1B00607A8A /* InteractiveSideMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8036B207160AB00B89815 /* InteractiveSideMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		60D88CF32071622B0046C318 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D88CF02071622B0046C318 /* HostViewController.swift */; };
 		60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */; };
@@ -97,7 +97,7 @@
 		6057474B2079C48400EAF8BC /* StudentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListViewController.swift; sourceTree = "<group>"; };
 		6057474D2079C61100EAF8BC /* Students.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Students.plist; sourceTree = "<group>"; };
 		6057474F2079C8FA00EAF8BC /* StudentInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfoCell.swift; sourceTree = "<group>"; };
-		605747A1207AADB000EAF8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605747A6207AB30500EAF8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60D88CF02071622B0046C318 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
 		60D88CF12071622B0046C318 /* SampleMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleMenuViewController.storyboard; sourceTree = "<group>"; };
 		60D88CF22071622B0046C318 /* SampleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleMenuViewController.swift; sourceTree = "<group>"; };
@@ -169,13 +169,6 @@
 				6057474920797BFF00EAF8BC /* Home.plist */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		60574741207968C300EAF8BC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		60574742207971C900EAF8BC /* ViewCell */ = {
@@ -302,13 +295,12 @@
 				D8D79AF9207076EC00EFF19C /* Login */,
 				60F6313020713D24006FA085 /* StudentProfileMode */,
 				60F6312F20713D06006FA085 /* TeacherProfileMode */,
-				60574741207968C300EAF8BC /* Model */,
 				D8D79B0D207084CA00EFF19C /* CustomControl */,
 				D8D79B4420708F9C00EFF19C /* AttendanceTracker-Bridging-Header.h */,
 				D8D79AFA20707D1000EFF19C /* Main.storyboard */,
 				D8D79ADF2070769B00EFF19C /* LaunchScreen.storyboard */,
 				D8D79AE22070769B00EFF19C /* Info.plist */,
-				605747A1207AADB000EAF8BC /* Assets.xcassets */,
+				605747A6207AB30500EAF8BC /* Assets.xcassets */,
 			);
 			path = AttendanceTracker;
 			sourceTree = "<group>";
@@ -486,7 +478,7 @@
 			files = (
 				6057474A20797BFF00EAF8BC /* Home.plist in Resources */,
 				60D88CF42071622B0046C318 /* SampleMenuViewController.storyboard in Resources */,
-				605747A2207AADB000EAF8BC /* Assets.xcassets in Resources */,
+				605747A7207AB30500EAF8BC /* Assets.xcassets in Resources */,
 				6057474E2079C61100EAF8BC /* Students.plist in Resources */,
 				60D88D0A207162B40046C318 /* StudentProfileMain.storyboard in Resources */,
 				D8D79AFB20707D1000EFF19C /* Main.storyboard in Resources */,
