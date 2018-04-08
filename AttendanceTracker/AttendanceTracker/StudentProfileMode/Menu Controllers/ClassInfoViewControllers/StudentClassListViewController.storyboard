@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Class Info-->
+        <!--Classes-->
         <scene sceneID="CGF-NG-4Tr">
             <objects>
-                <viewController id="rku-Kn-Sg9" customClass="StudentClassListViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Classes" id="rku-Kn-Sg9" customClass="StudentClassListViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WUG-YV-k4B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,11 +113,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AqR-lO-Hya"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Class Info" id="cZ9-J5-Owq">
+                    <navigationItem key="navigationItem" title="Classes" id="cZ9-J5-Owq">
                         <barButtonItem key="leftBarButtonItem" image="Menu" id="4Uo-QB-zHr">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="openMenu:" destination="rku-Kn-Sg9" id="nEA-sM-3d9"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="a2h-wp-8pn">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="logoutAction:" destination="rku-Kn-Sg9" id="9a7-Tf-RTN"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -126,40 +132,10 @@
             </objects>
             <point key="canvasLocation" x="-4" y="178.56071964017991"/>
         </scene>
-        <!--Classes-->
-        <scene sceneID="7Oa-JE-xa9">
-            <objects>
-                <viewController storyboardIdentifier="Classes" title="Classes" id="MKQ-fa-VzS" customClass="StudentClassesViewController" customModule="AttendanceTracker" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8V0-yg-iHk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFK-cc-yMj">
-                                <rect key="frame" x="142" y="312.5" width="90" height="42"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Request"/>
-                                <connections>
-                                    <action selector="refreshBeaconsWithSender:" destination="MKQ-fa-VzS" eventType="touchUpInside" id="Ao7-Fb-FDN"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="XFK-cc-yMj" firstAttribute="centerX" secondItem="8V0-yg-iHk" secondAttribute="centerX" id="dVR-N4-eRg"/>
-                            <constraint firstItem="XFK-cc-yMj" firstAttribute="centerY" secondItem="8V0-yg-iHk" secondAttribute="centerY" id="wm2-K9-88Y"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6L1-d7-LEP"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="H1E-RU-emF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cnG-w2-h61" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="808.79999999999995" y="178.56071964017991"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="iYb-Ts-BS3">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9dQ-Td-2nQ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Classes" automaticallyAdjustsScrollViewInsets="NO" id="9dQ-Td-2nQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cAF-Gw-IYO">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

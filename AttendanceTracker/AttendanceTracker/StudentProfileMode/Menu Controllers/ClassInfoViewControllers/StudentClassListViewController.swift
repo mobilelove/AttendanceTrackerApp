@@ -22,6 +22,8 @@ class StudentClassListViewController: UIViewController, SideMenuItemContent, Sto
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Classes"
+        
         if let homeDataContentPath = Bundle.main.path(forResource: "StudentClassInfo", ofType: ".plist") {
             self.classInfoDataSource = NSArray(contentsOfFile: homeDataContentPath) as? Array<Any>
         }
@@ -41,6 +43,10 @@ class StudentClassListViewController: UIViewController, SideMenuItemContent, Sto
 
     @IBAction func openMenu(_ sender: Any) {
         showSideMenu()
+    }
+    
+    @IBAction func logoutAction(_ sender: Any){
+        self.dismiss(animated: true, completion: nil)
     }
     
     //MARK: - UITableView Datasource and Delegates

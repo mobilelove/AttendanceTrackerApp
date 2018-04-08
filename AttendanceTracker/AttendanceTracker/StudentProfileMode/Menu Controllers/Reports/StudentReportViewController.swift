@@ -1,5 +1,5 @@
 //
-//  StudentProfileViewController.swift
+//  StudentReportViewController.swift
 //  AttendanceTracker
 //
 //  Created by VIMAL KUMAR VEERACHAMY on 4/1/18.
@@ -9,12 +9,12 @@
 import UIKit
 import InteractiveSideMenu
 
-class StudentProfileViewController: UIViewController, SideMenuItemContent, Storyboardable {
+class StudentReportViewController: UIViewController, SideMenuItemContent, Storyboardable {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.title = "Profile"
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,11 +27,13 @@ class StudentProfileViewController: UIViewController, SideMenuItemContent, Story
         return .lightContent
     }
     
-    @IBAction func openMenu(_ sender: UIButton) {
+    // Show side menu on menu button click
+    @IBAction func openMenu(_ sender: Any) {
         showSideMenu()
     }
-
- @IBAction func LogoutBtn(_ sender: UIButton) {
-      self.dismiss(animated: true, completion: nil)
+    
+    @IBAction func logoutAction(_ sender: Any){
+        self.dismiss(animated: true, completion: nil)
     }
+
 }
