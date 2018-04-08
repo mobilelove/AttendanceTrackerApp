@@ -83,7 +83,6 @@ extension StudentClassesViewController:CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus)
     {
         guard status == .authorizedAlways else {
-            print("******** User not authorized !!!!")
             return
         }
     }
@@ -98,15 +97,15 @@ extension StudentClassesViewController:CLLocationManagerDelegate {
         if state == .inside {
             self.location?.startRangingBeacons(in: region as! CLBeaconRegion)
         }else{
-            //self.location?.stopRangingBeacons(in: region as! CLBeaconRegion)
+            self.location?.stopRangingBeacons(in: region as! CLBeaconRegion)
         }
     }
     
-    func locationManager(manager: CLLocationManager!, didEnterRegion region: CLRegion!) {
+    func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
         print("Beacon in range")
     }
     
-    func locationManager(manager: CLLocationManager!, didExitRegion region: CLRegion!) {
+    func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
         print("No beacons in range")
     }
     

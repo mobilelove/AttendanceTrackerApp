@@ -64,7 +64,7 @@ class HostViewController: MenuContainerViewController {
     }
 
     private func contentControllers() -> [UIViewController] {
-        let ClassesViewController = StudentClassesViewController.storyboardViewController()
+        let ClassesViewController = StudentClassListViewController.storyboardNavigationController()
         let ProfileViewController = StudentProfileViewController.storyboardViewController()
         let ReportViewController = StudentReportViewController.storyboardViewController()
         

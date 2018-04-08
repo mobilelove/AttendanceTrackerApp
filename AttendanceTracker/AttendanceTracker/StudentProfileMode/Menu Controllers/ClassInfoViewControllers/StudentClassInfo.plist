@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>className</key>
+		<string>Embedded Systems</string>
+		<key>classID</key>
+		<string>CS 3420</string>
+		<key>classTime</key>
+		<string>9:00AM - 10:00AM</string>
+	</dict>
+	<dict>
+		<key>classTime</key>
+		<string>11:00AM - 12:00PM</string>
+		<key>className</key>
+		<string>Introduction to Cognitive Science</string>
+		<key>classID</key>
+		<string>CS 1710</string>
+	</dict>
+	<dict>
+		<key>classTime</key>
+		<string>1:00PM - 2:00PM</string>
+		<key>className</key>
+		<string>Introductory Design and Programming for the Web</string>
+		<key>classID</key>
+		<string>CS 1300</string>
+	</dict>
+	<dict>
+		<key>classTime</key>
+		<string>2:00PM - 3:00PM</string>
+		<key>className</key>
+		<string>Transition to Object-Oriented Programming</string>
+		<key>classID</key>
+		<string>CS 1130</string>
+	</dict>
+	<dict>
+		<key>classTime</key>
+		<string>3:00PM - 4:00PM</string>
+		<key>className</key>
+		<string>Data Structure and Algorithm</string>
+		<key>classID</key>
+		<string>CS 2109</string>
+	</dict>
+	<dict>
+		<key>classTime</key>
+		<string>4:00PM - 5:00PM</string>
+		<key>className</key>
+		<string>Fundamental Programming Concepts</string>
+		<key>classID</key>
+		<string>CS 1109</string>
+	</dict>
+</array>
+</plist>
