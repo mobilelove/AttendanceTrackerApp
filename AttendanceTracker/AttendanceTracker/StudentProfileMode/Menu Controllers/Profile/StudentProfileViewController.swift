@@ -15,6 +15,11 @@ class StudentProfileViewController: UIViewController, SideMenuItemContent, Story
         super.viewDidLoad()
 
         self.title = "Profile"
+        
+        let OKAction:UIAlertAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let alert:UIAlertController = UIAlertController(title: "Alert", message: "Feature development is inprogress", preferredStyle: .alert)
+        alert.addAction(OKAction)
+        self.present(alert, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

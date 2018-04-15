@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7bo-Hh-mZF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7bo-Hh-mZF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Registered classes-->
         <scene sceneID="8tF-QL-6rn">
@@ -87,7 +82,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VFV-UY-zmF"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Registered classes" id="dSa-Yu-ACU"/>
+                    <navigationItem key="navigationItem" title="Registered classes" id="dSa-Yu-ACU">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" id="x2x-7g-66a">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="logoutAction:" destination="B7c-Fu-VR0" id="7u0-5P-nUV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qNX-zR-bqM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -296,7 +298,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2OB-EL-Bv9"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="2H9-3G-trP"/>
+                    <navigationItem key="navigationItem" title="Home" id="2H9-3G-trP">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" id="klf-g7-V7h">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="logoutAction:" destination="Chw-Zt-NTJ" id="BhU-Ke-v1s"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euH-sE-mei" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

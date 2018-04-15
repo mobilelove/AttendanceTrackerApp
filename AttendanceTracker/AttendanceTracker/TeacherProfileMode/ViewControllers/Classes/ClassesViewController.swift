@@ -21,6 +21,10 @@ class ClassesViewController: UIViewController, UITableViewDelegate, UITableViewD
         
     }
     
+    @IBAction func logoutAction(_ sender: Any) {
+        
+        self.dismiss(animated: true, completion: nil)
+    }
     //MARK: - UITableView Datasource and Delegates
     
     func numberOfSections(in tableView: UITableView) -> Int {

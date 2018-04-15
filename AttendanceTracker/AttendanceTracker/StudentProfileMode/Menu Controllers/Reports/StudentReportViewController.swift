@@ -14,7 +14,12 @@ class StudentReportViewController: UIViewController, SideMenuItemContent, Storyb
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Profile"
+        self.title = "Reports"
+        
+        let OKAction:UIAlertAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let alert:UIAlertController = UIAlertController(title: "Alert", message: "Feature development is inprogress", preferredStyle: .alert)
+        alert.addAction(OKAction)
+        self.present(alert, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

@@ -13,7 +13,10 @@ class ReportsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let OKAction:UIAlertAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let alert:UIAlertController = UIAlertController(title: "Alert", message: "Feature development is inprogress", preferredStyle: .alert)
+        alert.addAction(OKAction)
+        self.present(alert, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

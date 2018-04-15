@@ -22,32 +22,35 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
         self.passwordTxtField.delegate = self
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+        self.usernameTxtField.text = ""
+        self.passwordTxtField.text = ""
+    }
+    
     //MARK: - IBActions methods
     @IBAction func LoginBtn(_ sender: Any) {
-        
-     //  self.setupTeacherProfileView()
-       self.setupStudentProfileView()
-        
-              /*  if(self.UsernameTxtField.text == "teacher"){
-                    self.setupTeacherProfileView()
-                }else{
-                    self.setupStudentProfileView()
-                }*/
     
-//        guard let email = UsernameTxtField.text, UsernameTxtField.text?.count != 0 else {
-//            self.showAlertFor(title: "Alert", message: "Please enter e-mail id")
-//            return
-//        }
-//
-//        if invalidEmail(emailId: email) == false{
-//            self.showAlertFor(title: "Alert", message: "Please enter your valid e-mail id")
-//            return
-//        }
-//
-//        guard let password = PasswordTxtField.text, PasswordTxtField.text?.count != 0 else{
-//            self.showAlertFor(title: "Alert", message: "Please enter your password")
-//            return
-//        }
+        guard let email = usernameTxtField.text, usernameTxtField.text?.count != 0 else {
+            self.showAlertFor(title: "Alert", message: "Please enter e-mail id")
+            return
+        }
+
+        if invalidEmail(emailId: email) == false{
+            self.showAlertFor(title: "Alert", message: "Please enter your valid e-mail id")
+            return
+        }
+
+        guard let _ = passwordTxtField.text, passwordTxtField.text?.count != 0 else{
+            self.showAlertFor(title: "Alert", message: "Please enter your password")
+            return
+        }
+        
+        if(self.usernameTxtField.text == "teacher@gmail.com"){
+            self.setupTeacherProfileView()
+         }else{
+            self.setupStudentProfileView()
+         }
   }
     
     @IBAction func signUpAction(_ sender: Any) {
@@ -66,12 +69,12 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
         self.present(alert, animated: true, completion: nil)
     }
     
-//    func invalidEmail(emailId: String)-> Bool{
-//        let emailRegEx = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
-//        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
-//        return emailTest.evaluate(with:emailId)
-//
-//    }
+    func invalidEmail(emailId: String)-> Bool{
+        let emailRegEx = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
+        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailTest.evaluate(with:emailId)
+
+    }
 
     func setupTeacherProfileView() -> Void {
         
